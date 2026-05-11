@@ -1,305 +1,172 @@
-# Three Angles on Nervous Tissue: Wiring, Signaling, and Conversation
+# Chapter 15 — Three Angles on Nervous Tissue: Wiring, Signaling, and Conversation
+*The Signal That Cannot Be Made Louder — Only Repeated.*
 
-**TL;DR:** Neurons achieve directional communication through asymmetric shape: dendrites collect, somas integrate, axons broadcast. The action potential is a self-propagating wave of depolarization, enabled by voltage-gated channels and propagated faster by myelin. Synaptic transmission turns electrical signals into chemistry, allowing integration of multiple inputs before the next neuron fires.
+In the 1950s, a researcher slid a thin electrode into a single axon — not from a human, not from a mouse, but from a squid. The giant squid *Loligo* has an axon nearly a millimeter in diameter, visible to the naked eye, which is why it became the instrument that unlocked one of biology's deepest puzzles. The researcher watched the voltage across the axon membrane shift from roughly negative seventy millivolts to positive thirty millivolts in under two milliseconds, then slam back down. He stimulated it again. Same thing. Same peak, same timing, same return. He stimulated harder. Same thing.
 
----
+That last result is the important one. Stimulate a neuron harder and you do not get a bigger signal. You get the same signal, or nothing at all.
 
-## Chapter Opening: A Single Decision
+This is so unlike almost everything else in physics and engineering that it stopped people cold. A microphone produces a bigger electrical signal when you shout into it. A pressure sensor deflects more when you press harder. But the neuron — the fundamental signaling unit of every nervous system on Earth — does not work this way. It fires fully or it does not fire. The size of the stimulus, beyond a threshold, is irrelevant. What matters is whether the threshold is crossed.
 
-The giant squid has been dead for centuries, but its axons still teach. In the 1950s, researchers slid electrodes into the famously thick axon of *Loligo fordi* — a nerve fiber wider than a typical human hair — and watched something extraordinary. The membrane potential shifted from a resting voltage of about -70 millivolts to +30 millivolts in a matter of milliseconds. The change wasn't gradual. It was fast, coordinated, all-or-nothing. And when they stimulated the axon again, the same pattern returned.
-
-What was doing the work? Not a wire, not a switch in the traditional sense. The answer was ions — sodium and potassium ions moving through protein channels in response to electrical changes. The mechanism was so precise, so beautiful, that when Alan Hodgkin and Andrew Huxley worked it out on paper in 1952 using squid axon data, they won the Nobel Prize. Their mathematical model of those ion movements became the foundation for understanding electrical signaling in the nervous system.
-
-The nervous system is first a communication device. You perceive a threat, your muscles contract. You learn a fact, that fact changes how you recognize patterns in the future. You feel an emotion, your heart rate shifts, your hands sweat. All of this depends on cells that have solved a specific architectural problem: how to receive information at one end, process it in the middle, and send a signal out the other end.
-
-That geometry matters. And the ions that move through the cell membrane matter too.
+Alan Hodgkin and Andrew Huxley worked out the mechanism from squid axon data in 1952, built a mathematical model of the ion currents involved, and won the Nobel Prize for it. Their model explained not just the all-or-nothing character of the signal but why it propagates at all, how it travels one direction and not the other, and why some axons carry signals two hundred times faster than others. The model has held up for seventy years. What it describes is the subject of this chapter.
 
 ---
 
-## Concept 1: Neuron Architecture and the Geometry of Flow
+## The Shape of a Neuron Is Its Function
 
-### The mechanism: Shape as function
+Before the electrical mechanism can make sense, the geometry has to make sense.
 
-The fundamental unit of the nervous system is the neuron — not because it is the only cell in nervous tissue, but because it is the cell that does the signaling. A neuron is a cell with a problem to solve: how to communicate with a distant target.
+<!-- → [IMAGE: labeled diagram of a multipolar neuron — show soma (cell body) with nucleus, multiple branching dendrites extending from soma, single axon emerging from axon hillock, myelin sheath in segments along axon with nodes of Ranvier labeled at gaps, axon terminal with synaptic vesicles; arrows showing direction of signal flow from dendrites → soma → axon → terminal; student should see the one-directional architecture before encountering the electrical mechanism] -->
 
-The solution is to build in distinct regions. The soma — the cell body — contains the nucleus and most of the metabolic machinery. But the neuron doesn't stay put there. From the soma, multiple branches extend outward. Most of these branches are dendrites, which come from the Greek word for "tree." They branch repeatedly, creating a bush-like structure. One branch — the axon — extends from the soma in a different direction, sometimes for a surprisingly long distance. A sensory neuron in your foot has its soma in a ganglion near your spine, but its axon extends all the way down to receptors in the skin. That's a single cell spanning a distance of more than a meter.
+A neuron is a cell with a problem: it needs to receive information at one end, process it in the middle, and send a signal out the other end. The solution is a body plan found nowhere else in biology. From the cell body — the soma, which contains the nucleus and most of the metabolic machinery — multiple branches extend outward. Most of these are dendrites, from the Greek word for tree, and they are named well: they branch and rebranch into a structure that can intercept signals arriving from dozens or hundreds of neighboring cells. One branch, and only one, extends in a different direction from the soma. This is the axon. It does not branch at its origin. It runs, sometimes for extraordinary distances, to whatever target the neuron is built to reach.
 
-Why the asymmetry?
+A sensory neuron with its soma near the base of your spine has an axon that extends down the entire length of your leg. That is a single cell more than a meter long, thinner than anything visible to the naked eye, running continuous from cell body to the skin of your foot.
 
-Information flows in one direction through this architecture. Dendrites receive signals from other neurons at specialized contact points called synapses. Those signals travel across the dendritic membrane, into the soma, and across the soma's membrane. Here, something essential happens: the soma integrates. It combines signals from dozens, sometimes hundreds of dendrites. Some signals push the soma's voltage toward firing. Some pull it away. The soma's job is to weigh them.
+The asymmetry is the point. Dendrites are the input end. The soma is where integration happens — where the cell adds up all the signals arriving from all the dendrites simultaneously. The axon is the output end. If the sum of inputs at the soma reaches a critical voltage — a threshold, located precisely at the base of the axon where it emerges from the cell body — an action potential begins. That signal then travels down the axon to its terminal, where it triggers the release of chemicals into the gap between this neuron and the next.
 
-If the soma's voltage reaches a threshold — a critical level called the trigger zone, located at the base of the axon near where it emerges from the cell body — an action potential begins. This electrical signal then travels down the axon, away from the soma, toward the axon terminal. At the terminal, the signal becomes something different: a chemical message released into the synapse. The receiving neuron's dendrites pick it up.
+This creates directed flow. Information can only move one way: dendrites in, axon out. The architecture enforces it.
 
-This creates directional flow. Dendrites are the input end. Axons are the output end. The soma is where integration happens.
+The length of the axon creates a problem. Electrical signals dissipate as they travel. A voltage change in a simple wire fades with distance. An axon a meter long, without some solution to this problem, would attenuate its signal to nothing before it reached the end.
 
-The architecture has consequences. Dendrites need to be short enough and numerous enough to listen to many neighbors. Axons need to be thin enough to fit in the available space, but long enough to reach distant targets. In humans, some axons stretch more than a meter while remaining thinner than the smallest visible structures under a light microscope.
+The solution is the action potential itself: a signal that is actively regenerated along the entire length of the axon, not passively conducted. But even active regeneration takes time, and time spent regenerating is time the signal is not moving. For a body that needs to coordinate muscles and sensors separated by a meter, the speed matters.
 
-This creates size constraints. The longer the axon, the slower the electrical signal travels — unless something wraps around it.
+Enter myelin. Glial cells — oligodendrocytes in the brain and spinal cord, Schwann cells in the peripheral nerves — wrap around segments of axons in thick layers of lipid-rich membrane. This wrapping is not continuous. It is segmented, with gaps left exposed at regular intervals called nodes of Ranvier. The insulated segments are called internodes.
 
-### The trade-off: Reach versus speed
+On a naked, unmyelinated axon, the action potential must be regenerated at every patch of membrane along the length. On a myelinated axon, the insulating sheath prevents the voltage change from leaking out through the membrane between nodes. The voltage change instead spreads electrically through the interior of the axon — fast, passive, like a wire — until it reaches the next exposed node, where the action potential is regenerated and jumps forward to the next.
 
-Here is the trade-off that nervous tissue has solved in multiple ways: **long axons are useful but slow; short axons are fast but limited in reach.**
+<!-- → [IMAGE: comparison diagram of unmyelinated vs. myelinated axon — left: unmyelinated axon showing action potential regenerating continuously at every membrane patch, labeled "0.5 m/s"; right: myelinated axon with Schwann cells/oligodendrocytes wrapped around internodes, nodes of Ranvier labeled, action potential jumping node to node, labeled "100 m/s"; student should see saltatory conduction as spatial skipping enabled by insulation, and appreciate the 200× speed difference] -->
 
-Imagine an electrical signal traveling down a naked axon — a membrane with no insulation. The voltage change spreads outward into the surrounding tissue through the extracellular space, and it also seeps back into the interior of the axon. The signal dissipates like heat from a boiling pot.
-
-Enter myelin: a fatty sheath wrapped around the axon in segments, provided by glial cells. In the central nervous system, oligodendrocytes — cells named for their "few branches" — each wrap around portions of multiple axons, creating a segmented insulation. In the peripheral nervous system, Schwann cells — each wrapping around a single axon segment — do the same job. The lipid-rich coating acts like the rubber insulation on an electrical wire.
-
-But myelinated axons are not continuous insulation. Between each myelinated segment lies a gap called a node of Ranvier, about 1 micrometer long. This gap is where the action potential regenerates. The voltage change cannot spread evenly down the insulated segment, so it jumps from node to node, a mechanism called saltatory conduction — from the Latin *saltus*, meaning "leap."
-
-The difference is not small. A naked axon transmits an action potential at roughly 0.5 meters per second. A fully myelinated axon in a human carries the same signal at 100 meters per second — 200 times faster.
-
-The trade-off resolved: myelin lets the nervous system combine long reach with rapid signaling. The cost is metabolic. Those oligodendrocytes and Schwann cells must synthesize and maintain vast amounts of lipid. The central nervous system, which is intensely myelinated, accounts for about 2 percent of body weight but consumes about 20 percent of the body's metabolic energy at rest.
-
-### Worked example: The reflex arc
-
-Consider a simple reflex: your hand touches a hot stove and pulls away. No thought is required. The signal from the touch receptors in your skin travels to the spinal cord, where it makes contact with a motor neuron, which activates muscles in your arm. The whole arc — sensation to response — takes fewer than 100 milliseconds.
-
-Here is the pathway, mapped to the architecture described above:
-
-A sensory neuron's dendrites do not branch like a tree. Instead, sensory neurons are unipolar — a single process emerges from the soma, then splits into two directions. One direction extends to the receptor in the skin. The other extends into the spinal cord. The soma of this sensory neuron lives in a ganglion just outside the spine, a junction point between the peripheral and central nervous systems.
-
-Inside the spinal cord, that sensory axon synapses onto a motor neuron. The motor neuron's many dendrites listen to signals from sensory neurons and from other sources in the brain. At the moment the hot stove touches your skin, the sensory signal arrives. It is strong enough to push the motor neuron's soma toward threshold. An action potential fires in the motor neuron's axon.
-
-That axon travels from the spinal cord back out to muscles in your arm. Where the axon terminal meets the muscle fiber, it releases a chemical — acetylcholine — that binds to receptors on the muscle membrane. The muscle contracts. Your hand lifts.
-
-All of this happens because the architecture creates directional flow, and myelination speeds the signal. The reflex arc shows why the geometry of neurons matters: different cell shapes enable different functions. Sensory neurons are unipolar to maximize their reach from skin to spine. Motor neurons are multipolar, with many dendrites, to integrate signals from multiple sources.
-
-### Common misconceptions
-
-**Misconception 1: Axons are like electrical wires that passively transmit signals.**
-
-False. Axons are not passive conductors. The action potential is actively regenerated along the entire axon. If an axon were simply a wire, the signal would fade within a few millimeters. Instead, the axon's membrane contains voltage-gated channels that open and close in response to the voltage change, amplifying the signal as it travels.
-
-**Misconception 2: Myelin wraps around an axon in one continuous sheath.**
-
-False. Myelin is segmented, with gaps between each segment. These gaps — nodes of Ranvier — are essential. The action potential regenerates at each node, jumping from node to node along the length of the axon.
-
-**Misconception 3: All axons are myelinated.**
-
-False. Many axons in the nervous system lack myelin. In the peripheral nervous system, groups of unmyelinated axons often rest in grooves of a single Schwann cell, with that cell touching many different axons. In the central nervous system, some axons have no myelin at all. Unmyelinated axons conduct signals more slowly, but they exist where speed is less critical.
+This is saltatory conduction, from the Latin for leap. The action potential does not travel continuously; it skips from node to node. The difference in speed is not marginal. An unmyelinated axon conducts at roughly half a meter per second. A large, fully myelinated axon conducts at a hundred meters per second. Two hundred times faster. The signals controlling your voluntary movements travel at a hundred meters per second. The signals controlling your digestion travel at a fraction of that. The nervous system has decided that speed is worth the metabolic cost of maintaining all those glial cells, but only where speed matters enough.
 
 ---
 
-## Concept 2: The Action Potential as a Self-Propagating Wave
+## The Mechanism That Hodgkin and Huxley Found
 
-### The mechanism: Voltage-gated channels in sequence
+Now to the mechanism. What actually happens when a neuron fires?
 
-The membrane of a neuron at rest is polarized — meaning there is a voltage difference across it. The inside is about 70 millivolts negative relative to the outside. This is the resting membrane potential.
+The membrane of a resting neuron is not at electrical equilibrium. It is held in a state of tension. On the outside of the membrane, sodium ions are abundant. On the inside, potassium ions are abundant. The Na⁺/K⁺ ATPase — a pump embedded in the membrane — maintains these gradients by continuously moving three sodium ions out for every two potassium ions it pulls in, powered by ATP. More positive charges pumped out than pulled in means the inside of the cell accumulates a slight negative charge. The resting potential is approximately negative seventy millivolts.
 
-The resting potential exists because of ion pumps. The Na+/K+ ATPase is the primary actor: it moves three sodium ions out of the cell and two potassium ions in, using energy from ATP. This pump runs continuously, creating a concentration gradient. Inside the cell, potassium is abundant. Outside, sodium is abundant. The pump also creates a charge imbalance: more positive charges pumped out than pumped in, so the interior becomes negative.
+This is not a passive state. It costs energy to maintain, and it is the stored potential that makes signaling possible.
 
-Now add voltage-gated channels. These are protein channels in the membrane that open and close in response to voltage changes. There are two main types: fast sodium channels and potassium channels.
+The membrane is also studded with voltage-gated ion channels — protein structures that open and close in response to the voltage across the membrane. Two types matter most: fast sodium channels and slower potassium channels.
 
-Here is what happens when a stimulus reaches threshold:
+Here is what happens when a stimulus depolarizes the membrane enough to reach threshold — approximately negative fifty-five millivolts:
 
-The voltage at the trigger zone — the initial segment of the axon — rises from -70 millivolts toward zero. When it reaches approximately -55 millivolts, the voltage-gated sodium channels suddenly open. Sodium ions, following their electrochemical gradient (the combination of concentration gradient and electrical gradient), rush into the cell. The inside of the membrane becomes less negative, then positive. The voltage overshoots, reaching about +30 millivolts inside relative to outside.
+The voltage-gated sodium channels snap open. Sodium ions, driven by both their concentration gradient (more outside than inside) and by the electrical gradient (the inside is negative), rush into the cell. The inside of the membrane becomes less negative, then briefly positive — reaching about positive thirty millivolts. This is the peak of the action potential.
 
-At this point, something essential happens: the sodium channels inactivate. They close and become unresponsive — they cannot be opened again immediately. Meanwhile, voltage-gated potassium channels, which open more slowly in response to the same voltage change, are now fully open. Potassium ions, abundant inside the cell, flow out. The inside becomes negative again, repolarizing the membrane. Within a few milliseconds, the voltage returns to resting.
+At this point, the sodium channels inactivate. They close in a way that is different from their resting-closed state: they are now locked shut, unresponsive to voltage, for a period of milliseconds. They cannot be reopened, no matter how strong the stimulus. This is the absolute refractory period — a window during which another action potential is physically impossible.
 
-The sequence is the key:
+Meanwhile, the voltage-gated potassium channels, which respond to the same voltage change that opened the sodium channels but more slowly, are now fully open. Potassium ions, abundant inside the cell, flow outward. The inside becomes negative again. The membrane repolarizes. In fact, it briefly overshoots the resting potential — hyperpolarizes — before the potassium channels close and the Na⁺/K⁺ pump restores the gradients.
 
-1. **Threshold reached.** Stimulus depolarizes the membrane.
-2. **Sodium influx.** Fast Na+ channels open. Voltage becomes positive inside.
-3. **Inactivation.** Na+ channels close, unresponsive for milliseconds.
-4. **Potassium efflux.** K+ channels open (delayed). Voltage becomes negative inside.
-5. **Restoration.** K+ channels close. Voltage returns to resting.
+The whole event takes one to two milliseconds.
 
-This entire cycle takes 1-2 milliseconds. During the time when sodium channels are inactivated, a new action potential cannot be triggered, no matter how strong the stimulus. This is the refractory period — absolute refractory period during inactivation, relative refractory period after, when the voltage is temporarily hyperpolarized and a stronger-than-normal stimulus is required to trigger again.
+<!-- → [CHART: action potential waveform — x-axis: time in milliseconds (0–5 ms); y-axis: membrane voltage (−70 mV to +30 mV); label: resting potential (−70 mV), threshold (−55 mV), rising phase with annotation "Na⁺ channels open / Na⁺ rushes in", peak (+30 mV), falling phase with annotation "Na⁺ channels inactivate / K⁺ channels open / K⁺ rushes out", undershoot (hyperpolarization) with annotation "K⁺ channels close", return to resting; bracket showing absolute refractory period during Na⁺ inactivation; student should connect each phase of the waveform to the specific channel events causing it] -->
 
-The self-propagation works like this: the voltage change at one location opens channels at the neighboring membrane. The influx of sodium there depolarizes that patch of membrane. Channels at that new location open. The wave spreads.
+Now here is the propagation. The sodium influx at one location depolarizes the neighboring patch of membrane. That patch's voltage-gated sodium channels open. Sodium rushes in there too. That patch depolarizes the next patch. The wave moves down the axon.
 
-On a myelinated axon, the action potential propagates along the insulated segment — the internode — not by the voltage change spreading passively, but because the voltage change is large enough to reach the neighboring node. At the node, the action potential regenerates fully. This jumping from node to node is saltatory conduction, and it is the reason myelinated axons conduct so much faster than unmyelinated ones.
+But behind the wave, the sodium channels are inactivated — in their locked-shut refractory state. The wave cannot move backward into already-fired membrane. It can only move forward, into membrane that is still at rest. The refractory period is not a flaw. It is what makes the action potential directional.
 
-The speed of propagation depends on axon diameter and myelination. A large-diameter, myelinated axon conducts at 100+ meters per second. A small, unmyelinated axon might conduct at 0.5 meters per second. This is not a small difference. In a nervous system that must coordinate a multi-meter body, the difference between 0.5 m/s and 100 m/s can mean the difference between a clumsy response and a graceful one.
-
-### The trade-off: Energy cost versus conduction speed
-
-Faster conduction requires more sodium to enter the cell and more potassium to exit — not because the channels are bigger, but because the voltage swings are the same and the current flow must happen over a shorter distance (the node) to propagate the signal far enough to reach the next node.
-
-The Na+/K+ ATPase must run continuously to restore these ion gradients. In an active neuron firing repeatedly, this pump can account for 70 percent of the cell's metabolic cost. A neuron that fires constantly burns much more fuel than a neuron that fires rarely.
-
-Large-diameter myelinated axons are metabolically expensive but fast. Small unmyelinated axons are cheap but slow. Evolution has solved this trade-off differently in different systems. Your motor axons — the ones that control voluntary movement — are large and myelinated. Your autonomic axons — the ones controlling heart rate and digestion — are smaller and slower. The speed needed for a reflex movement justifies the metabolic cost. The speed needed for autonomic functions does not.
-
-Myelin itself adds another trade-off. The oligodendrocytes and Schwann cells that produce myelin are energetically costly to maintain. A myelinated axon is faster, but the nervous system must invest resources in the glial cells that insulate it.
-
-### Worked example: Why tetanus kills
-
-Tetanus is caused by a toxin produced by *Clostridium tetani*, a bacterium. The toxin is a protease — an enzyme that cuts proteins. Its target is SNARE proteins, which are essential for the release of neurotransmitters from synaptic terminals. When these proteins are cut, the synapse cannot function.
-
-Specifically, the tetanus toxin blocks the release of inhibitory neurotransmitters at the spinal cord — primarily GABA and glycine. These neurotransmitters normally silence motor neurons during movement, preventing unintended contractions.
-
-Without inhibition, motor neurons fire uncontrollably. Muscles contract in rigid, uncoordinated spasms. The jaw locks shut — the disease's name comes from the Greek word for "tension." The back arches. The patient cannot relax, cannot breathe, cannot move.
-
-The mechanism reveals something essential about the action potential: it is not the endpoint of signaling. The action potential itself — the depolarization — doesn't directly cause a muscle to contract. Instead, the action potential causes a neuron to release a neurotransmitter. That chemical binds to receptors, opening channels, allowing ions to flow, and finally causing the muscle to respond.
-
-By blocking the release of inhibitory neurotransmitters, the tetanus toxin removes the nervous system's ability to stop motor neurons from firing. The action potentials happen, but the balance of signals that normally restrains them is gone. The result is paralysis by excessive contraction — a dark illustration of why inhibition is not a luxury of the nervous system. It is essential.
-
-### Common misconceptions
-
-**Misconception 1: The action potential jumps from node to node on myelinated axons.**
-
-Partially true, but incomplete. The action potential does not passively jump. The voltage change at one node is large enough to depolarize the membrane at the next node, triggering it to open its channels and regenerate the action potential. It is active propagation, not passive jumping.
-
-**Misconception 2: The refractory period is a design flaw.**
-
-False. The refractory period is essential. It ensures that the action potential propagates in one direction only — down the axon away from the soma, not backward into the dendrites. It also sets an upper limit on firing frequency, which is necessary for encoding information in the pattern of firings rather than in the absolute rate.
-
-**Misconception 3: Bigger action potentials are faster or stronger.**
-
-False. The action potential in a given neuron is all-or-nothing: it reaches the same peak voltage and follows the same time course every time. Bigger neurons conduct faster, but a bigger stimulus does not produce a bigger action potential in a given axon. Information is encoded in the frequency of action potentials, not their amplitude.
+The all-or-nothing character follows from the same mechanism. If a stimulus depolarizes the membrane to threshold, sodium channels open, sodium rushes in, the membrane depolarizes further, more sodium channels open. This is a positive feedback loop. Once it begins, it runs to completion — always to the same peak voltage, always following the same time course. If the stimulus does not reach threshold, the positive feedback never starts. The membrane returns to resting. There is no middle state.
 
 ---
 
-## Concept 3: Synaptic Transmission and Integration
+## Electricity Becomes Chemistry: The Synapse
 
-### The mechanism: From electricity to chemistry and back
+The action potential reaches the axon terminal. What happens there?
 
-The action potential travels down the axon to the terminal — the ending that makes contact with the target cell. Here, the electrical signal becomes chemistry.
+The terminal does not physically touch the next cell. It is separated from the receiving membrane by a gap of about twenty nanometers — the synaptic cleft. Twenty nanometers is less than the wavelength of visible light, so this gap is not something you can see, but it is a true physical separation, not a connection. Across this gap, an electrical signal cannot simply continue. The communication must become chemical.
 
-At the synapse, the presynaptic terminal — the ending of the signaling neuron — comes very close to the postsynaptic membrane — the membrane of the receiving cell. The gap between them is tiny, about 20 nanometers, but it is a true gap, not a fusion of membranes. Across this gap, a chemical message must travel.
+<!-- → [IMAGE: cross-section diagram of a chemical synapse — show presynaptic terminal with mitochondria, synaptic vesicles clustered near active zone, voltage-gated Ca²⁺ channels at membrane; synaptic cleft labeled (20 nm); postsynaptic membrane with ligand-gated ion channels (receptors); arrows showing: action potential arrives → Ca²⁺ enters → vesicles fuse (exocytosis) → neurotransmitter released into cleft → diffuses to receptors → ion channels open → postsynaptic potential; student should trace the complete electrical-to-chemical-to-electrical conversion] -->
 
-The presynaptic terminal is packed with synaptic vesicles — small pouches containing neurotransmitter molecules. Glutamate, GABA, acetylcholine, dopamine, serotonin — each neuron uses one or a handful of specific neurotransmitter types. When the action potential reaches the terminal, voltage-gated calcium channels open. Calcium ions flow into the terminal. This calcium triggers a cascade: SNARE proteins — "soluble N-ethylmaleimide-sensitive factor (attachment protein) receptor" proteins — zipper together, pulling the vesicle membrane to the plasma membrane of the terminal. The membranes fuse. The contents of the vesicle pour into the synaptic cleft.
+The terminal is packed with synaptic vesicles — tiny pouches filled with neurotransmitter molecules. When the action potential arrives, it opens voltage-gated calcium channels in the terminal membrane. Calcium ions flow in. Calcium is the trigger. It activates proteins called SNAREs, which zipper the vesicle membrane to the terminal membrane and force the contents of the vesicle into the synaptic cleft. This is exocytosis, and it happens within a hundred microseconds of the calcium influx.
 
-This process is called exocytosis. It is fast — complete in about 100 microseconds — and highly regulated. The calcium concentration, the state of the SNARE proteins, the number of vesicles ready to go: all of these variables control how much neurotransmitter is released.
+The neurotransmitter molecules diffuse across the cleft and bind to receptor proteins on the postsynaptic membrane — the membrane of the receiving cell. Some of these receptors are ion channels themselves: when the neurotransmitter binds, they open. Others trigger second-messenger cascades that open channels indirectly.
 
-Now the neurotransmitter molecules diffuse across the synaptic cleft. When they reach the postsynaptic membrane, they bind to receptors — protein molecules that recognize specific neurotransmitter shapes.
+If the channel that opens allows sodium in, the postsynaptic membrane depolarizes slightly. This is an excitatory postsynaptic potential, or EPSP — a small nudge toward firing. If the channel that opens allows chloride in or potassium out, the membrane hyperpolarizes slightly. This is an inhibitory postsynaptic potential, or IPSP — a small push away from firing.
 
-Here is where the electrical signal returns. Some receptors, when bound by neurotransmitter, are ion channels themselves. They open, allowing ions to flow. If the receptor allows sodium in and potassium out, the net effect is depolarization of the postsynaptic membrane — a small voltage change called an excitatory postsynaptic potential, or EPSP. If the receptor allows chloride in or potassium out, the result is hyperpolarization — an inhibitory postsynaptic potential, or IPSP.
+The critical word is small. A single EPSP is typically about half a millivolt. The threshold for firing is fifteen millivolts above resting. One synapse cannot make a neuron fire. This is by design.
 
-The key word is "small." A single EPSP is typically only 0.5 millivolts — nowhere near the 15-millivolt threshold needed to trigger an action potential in the postsynaptic neuron. The magic happens next.
+A typical neuron in the brain receives input from thousands of synapses simultaneously. Some are excitatory; some are inhibitory. The soma continuously adds up all of these small voltage changes, accounting for where on the dendrite each one arrived (synapses near the soma have more influence than synapses at the dendritic tips), and how recently each one occurred (voltage changes fade over time, so signals that arrive close together in time add their effects more fully than signals that arrive far apart).
 
-### The trade-off: Precision versus bandwidth
+If the sum at any moment exceeds threshold at the axon hillock — the trigger zone — an action potential fires. If not, silence.
 
-A single synapse cannot control a neuron. Instead, neurons integrate signals from dozens, hundreds, or even thousands of synapses. This integration is the soma's job.
-
-Some of these signals are excitatory — they push the soma's voltage toward threshold. Some are inhibitory — they push it away. The soma's voltage at any given moment is the sum of all these inputs. If the sum reaches threshold, an action potential fires. If not, nothing happens.
-
-This is why neurons have multiple dendrites. Multiple inputs mean more opportunities for the soma to perform integration. A Purkinje cell in the cerebellum — a neuron famous for its dendritic tree — receives signals from tens of thousands of synapses on its elaborate branching structure. The soma integrates all of them in parallel.
-
-This design has a cost: precision. An individual synapse's influence is tiny. The neuron "listens" to all inputs together, not to individual ones. This creates the illusion that neurons do complicated processing. In fact, much of what a neuron does is simple: sum the inputs, compare to threshold, fire or not fire.
-
-The advantage is robustness. A single defective synapse cannot control the neuron. Noise is filtered out by the integration process. A signal must come from many sources simultaneously to push the soma to threshold.
-
-The other advantage is temporal integration — the ability to wait. An excitatory signal from one synapse lasts about 10-20 milliseconds. If a second signal arrives during that window, the two effects summate. If the second signal arrives later, it will not. This gives the soma a way to encode timing: signals that arrive close together in time have a stronger effect than signals that arrive far apart.
-
-This temporal integration depends on the membrane's capacitance — its ability to store charge. A fully charged capacitor takes time to discharge. During that time, a new charge can be added. This is why synaptic potentials last longer than the neurotransmitter binding: the membrane itself is holding the charge.
-
-Inhibitory signals are equally important. A strong inhibitory input can counteract multiple weak excitatory inputs. The nervous system uses inhibition not as a temporary block, but as a fundamental part of computation. In the spinal cord, motor neurons are continuously bombarded with inhibitory signals from the brain that prevent unwanted muscle contractions. Remove those signals — through a spinal cord injury or a toxin like tetanus — and the motor neuron fires uncontrollably.
-
-The soma performs weighted integration: strong synapses have larger effects than weak synapses. The number and location of synapses on a dendrite influence their strength. Synapses near the soma have a larger effect on firing. Synapses at the tip of a dendritic spine must depolarize more membrane before their signal reaches the soma.
-
-### Worked example: LTP and the basis of memory
-
-Long-term potentiation, or LTP, is a persistent increase in the strength of a synapse. If a presynaptic neuron fires repeatedly while a postsynaptic neuron is also depolarized, the synapse becomes stronger. This strengthening lasts hours, days, or longer. It is the cellular basis of learning.
-
-The mechanism involves calcium. When a glutamate synapse is active, a particular type of receptor — the NMDA receptor — is especially sensitive. This receptor allows calcium in, but only if the postsynaptic neuron is already depolarized. If the presynaptic neuron fires alone, little calcium enters because the postsynaptic membrane is at rest and the NMDA receptor gates are blocked by magnesium. But if the synapse fires while the postsynaptic neuron is simultaneously excited by other inputs, the postsynaptic depolarization removes the magnesium block. Now calcium pours in through the NMDA receptor. This calcium triggers biochemical cascades: more glutamate receptors are inserted into the postsynaptic membrane, strengthening the synapse. The protein CAMKII (calcium/calmodulin-dependent protein kinase II) phosphorylates other proteins, locking in the change.
-
-The result: the next time the presynaptic neuron fires, it has a larger effect on the postsynaptic neuron. This is Hebbian learning: "neurons that fire together wire together."
-
-The logic is elegant. The postsynaptic neuron is saying: "You fired while I was already active. That suggests you contributed to my decision to fire. I'll strengthen your connection." This allows the nervous system to learn associations. If you see a face and smell a scent at the same time, synapses connecting face-processing neurons with scent-processing neurons strengthen. The next time you see the face, those neurons activate, triggering the memory of the scent.
-
-Contrast this with a single synapse whose message comes alone, at random, when the postsynaptic neuron is quiet. That synapse weakens. The postsynaptic neuron is saying: "You fired when I was not active. You didn't contribute. I'll weaken your connection." This is called long-term depression.
-
-These opposing changes — strengthening and weakening — allow the nervous system to learn which signals matter and which are noise.
-
-### Common misconceptions
-
-**Misconception 1: Neurotransmitters diffuse freely across the synaptic cleft.**
-
-Partially true. They do diffuse, but the process is tightly controlled. Glial cells rapidly remove neurotransmitter from the cleft via reuptake transporters. The lifetime of a neurotransmitter molecule in the synaptic cleft is milliseconds to tens of milliseconds, not seconds. This rapid removal allows synapses to reset quickly, preparing for the next signal.
-
-**Misconception 2: Each synapse is either excitatory or inhibitory, always and forever.**
-
-Mostly true, but incomplete. A neuron typically uses the same neurotransmitter at all its synapses — this is Dale's principle. But the effect depends on the receptor on the postsynaptic membrane. Some receptors make a synapse excitatory, others inhibitory. A rare synapse could theoretically have both types of receptors, leading to mixed effects, but this is unusual.
-
-**Misconception 3: The postsynaptic potential directly determines whether the postsynaptic neuron fires.**
-
-False. The postsynaptic potential is just one input among many. The neuron's soma integrates all inputs — excitatory and inhibitory — over time. If the sum exceeds threshold, an action potential fires. If not, it doesn't. The threshold is not a fixed voltage; it depends on the membrane's state (whether it is in a refractory period, for example) and on other factors like neuromodulators that can shift excitability.
+This is the fundamental computation of the nervous system. Not a binary switch but a continuous weighted sum, converted to a binary output — fire or not fire — thousands of times per second. The neuron is integrating information from hundreds of sources and making a decision.
 
 ---
 
-## Integration: Wiring, Signaling, and Conversation
+## Why Inhibition Is Not Optional
 
-The nervous system is a communication device, but not in the way an electrical wire is. Wires carry signals unchanged. Neurons transform signals.
+It is tempting to think of inhibitory synapses as a brake — something that slows the system down when needed. This misses how central inhibition is to every computation the nervous system performs.
 
-A neuron receives thousands of synaptic inputs — some excitatory, pushing it toward firing; some inhibitory, pushing it away. The soma integrates these in real time, incorporating timing and location and strength. The neuron's decision — to fire or not to fire — is a computation, not a simple relay.
+Consider the motor neuron that controls a muscle in your forearm. At any moment, this neuron is receiving signals from the brain telling it to contract the muscle, and simultaneously receiving signals from the spinal cord telling it not to. The balance of these signals — excitatory drive from the brain versus inhibitory restraint from interneurons — determines whether the muscle contracts and how strongly.
 
-This computation depends on the neuron's architecture. The dendritic tree captures many inputs. The soma's position, its membrane properties, and its distance from the axon hillock all determine how effectively distant synapses influence firing. The axon hillock itself — the trigger zone where action potentials begin — receives direct input from many inhibitory synapses, allowing the neuron to veto its own firing at the last moment.
+Without inhibition, motor neurons fire uncontrollably. This is exactly what happens in tetanus. The bacterium *Clostridium tetani* produces a toxin — a protease — that cuts the SNARE proteins at inhibitory synapses in the spinal cord. GABA and glycine, the primary inhibitory neurotransmitters of the spinal cord, can no longer be released. The brake is gone. Motor neurons fire without restraint. Muscles lock in rigid, uncoordinated spasm. The jaw cannot open. The back arches. The patient cannot breathe.
 
-The speed of signaling depends on myelin. The metabolic cost depends on firing frequency. The strength of signals depends on synapse number and location. The flexibility of learning depends on the mechanisms that strengthen and weaken synapses.
-
-All of these — architecture, speed, cost, strength, learning — are evolved solutions to the problem of coordinating a multi-meter body with a brain that sits at one end. The nervous system solves this through specialization: different neurons for different jobs, different myelin patterns for different speeds, different neurotransmitter systems for different functions.
-
-Understanding nervous tissue is understanding how these pieces fit together. The neuron's shape enables directional flow. The action potential's mechanism enables rapid, reliable propagation over distance. Synaptic transmission enables integration — the ability to combine information from multiple sources and make a decision.
+Tetanus kills not because neurons fire too weakly, but because they cannot stop firing. The inhibitory synapses were doing essential work at every moment, and their absence is immediately catastrophic.
 
 ---
 
-## Graduated Exercises
+## How Synapses Change: The Cellular Basis of Memory
 
-**Warm-up:**
+The architecture described so far — action potentials traveling down axons, neurotransmitters crossing synaptic clefts, postsynaptic potentials summing in somas — is the mechanism of moment-to-moment signaling. But the nervous system also learns. The same cellular machinery supports both.
 
-1. A neuron's soma receives a small excitatory input that depolarizes it by 2 millivolts. Nothing happens — the neuron doesn't fire. What is the most likely explanation?
-   - a) The stimulus was not strong enough to reach threshold
-   - b) The refractory period is active
-   - c) Inhibitory inputs are blocking the signal
-   - d) Both (a) and (c) are possible
+The key is that synapses are not fixed in strength. A synapse that has been recently active can become stronger or weaker depending on the circumstances of its recent use.
 
-2. A Schwann cell wraps around a segment of axon, covering it with myelin. What happens to the speed of action potential propagation along this segment, and why?
+The best-understood form of synaptic strengthening is long-term potentiation, or LTP. At glutamate synapses — the primary excitatory synapses of the brain — a particular receptor called the NMDA receptor has an unusual property. It can only open if two conditions are satisfied simultaneously: the presynaptic neuron must release glutamate, and the postsynaptic membrane must already be depolarized. In other words, the NMDA receptor is a coincidence detector. It reports that two events happened at the same time.
 
-**Application:**
+When both conditions are met, the NMDA receptor allows calcium into the postsynaptic cell. That calcium triggers a cascade that inserts more glutamate receptors into the postsynaptic membrane. The synapse is now stronger. The next time the presynaptic neuron fires, it will have a larger effect on the postsynaptic neuron than it did before.
 
-3. In demyelinating diseases like multiple sclerosis, the myelin surrounding axons is damaged. Explain why this leads to slower nerve conduction and, in severe cases, complete loss of signal transmission.
+The logic is this: if a synapse was active while the postsynaptic neuron was firing, that synapse probably contributed to the decision to fire. Strengthen it. If a synapse fires while the postsynaptic neuron is quiet, it did not contribute. Weaken it. This is Hebb's rule — neurons that fire together wire together — implemented in calcium chemistry.
 
-4. A drug blocks voltage-gated sodium channels. Describe what would happen to the action potential in a neuron exposed to this drug. Would the neuron's synaptic output change? Why or why not?
+<!-- → [INFOGRAPHIC: LTP mechanism — two panels side by side; left panel (before LTP): presynaptic neuron releases glutamate, NMDA receptors on postsynaptic membrane blocked by Mg²⁺ (postsynaptic not depolarized), only AMPA receptors open, small EPSP results; right panel (during/after LTP): presynaptic fires while postsynaptic is already depolarized, Mg²⁺ block removed from NMDA receptor, Ca²⁺ enters via NMDA, Ca²⁺ triggers insertion of additional AMPA receptors into postsynaptic membrane, same presynaptic firing now produces larger EPSP; student should see the coincidence-detection logic: NMDA opens only when both neurons are active simultaneously] -->
 
-**Synthesis:**
-
-5. A neuron receives 100 excitatory inputs and 50 inhibitory inputs simultaneously. Each excitatory synapse produces a 0.5 mV EPSP, and each inhibitory synapse produces a -0.5 mV IPSP. The neuron's firing threshold is 15 mV above resting potential. Will the neuron fire? Show your calculation.
-
-6. Compare and contrast the roles of myelin in conduction speed and energy efficiency. Why does the nervous system myelinate some axons but not others?
-
-**Challenge:**
-
-7. A researcher stimulates a presynaptic neuron repeatedly at 10 Hz (10 action potentials per second). She records from a postsynaptic neuron and observes that the EPSP amplitude increases over several minutes. However, if she stimulates at very low frequency (1 Hz), the EPSP amplitude decreases over time. Explain these findings using the concepts of synaptic plasticity, temporal summation, and the role of calcium in synaptic signaling.
-
-8. The giant squid axon was crucial to understanding the action potential. Explain why its large diameter made it ideal for these experiments, and describe how the findings would likely differ in a much smaller mammalian axon. Consider both conduction velocity and the challenge of inserting electrodes.
+The consequence is that the pattern of activity in a neural circuit is self-reinforcing. Pathways that are used become easier to use. Pathways that are not used become harder to use. What we experience as memory and learning is, at the cellular level, the gradual reshaping of synaptic weights across billions of neurons.
 
 ---
 
-## Chapter Summary
+## The Three Mechanisms Together
 
-Neurons are built to solve a specific problem: communicate over distance with precision. They do this through three integrated mechanisms.
+The architecture, the action potential, and synaptic transmission are not three separate features of nervous tissue. They are one integrated system.
 
-First, neurons are asymmetrically shaped. Dendrites receive signals at multiple contact points called synapses. The soma collects these signals and integrates them — combining excitatory and inhibitory inputs over space and time. The axon, emerging from the soma at the trigger zone, carries the integrated signal away toward target cells. This directional architecture ensures that information flows one way: in through dendrites, processed by the soma, out through the axon.
+The dendrites' job is to collect. They present a large surface area to the local environment, intercepting signals from hundreds of neighbors. The soma's job is to integrate. It holds all the incoming postsynaptic potentials simultaneously, weighing them by their strength and timing. The axon hillock's job is to decide. At every moment, it compares the summed input to threshold. If the threshold is crossed, the axon fires.
 
-Second, the action potential is a self-propagating electrical wave, regenerated along the entire length of the axon by voltage-gated channels. Sodium channels open at threshold, depolarizing the membrane. Potassium channels open in response, repolarizing it. The refractory period ensures one-directional propagation. Myelin, wrapped around the axon in segments, allows saltatory conduction — jumping from node to node — which speeds signal transmission 200-fold while maintaining reliability.
+The action potential's job is to transmit. It carries the decision — fire or not fire — down the axon at speeds that allow the body to coordinate across its full length. Myelin extends that speed where it is needed most. The refractory period ensures the signal moves in one direction and does not interfere with itself.
 
-Third, synaptic transmission translates the electrical signal into chemistry and back again. The action potential opens calcium channels in the presynaptic terminal, triggering neurotransmitter release. The neurotransmitter diffuses across the synaptic cleft and binds to receptors on the postsynaptic membrane, opening ion channels and producing small voltage changes — EPSPs and IPSPs. These postsynaptic potentials are weak individually but strong collectively, allowing the soma to integrate hundreds of simultaneous inputs.
+The synapse's job is to translate. Electrical signal becomes chemical release. Chemical release becomes electrical signal in the next cell. This translation is where the computation continues: the synapse is not just a relay but a site of integration, modulation, and modification. Synaptic weights change with use. History is encoded in which synapses are strong and which are weak.
 
-This three-level system — architecture, electrical propagation, and synaptic integration — enables the nervous system to perform its fundamental functions: sensation, integration, and response. It also enables learning, through mechanisms like long-term potentiation, where synapses strengthen when they contribute to the postsynaptic neuron's firing.
+Put all of this together and you have the machinery that underlies everything the nervous system does: every sensation, every movement, every thought, every memory. The Hodgkin-Huxley model, derived from a squid in a tank in Cambridge in 1952, describes the foundation. The squid axon was chosen for its size, not its sophistication. But the mechanism it revealed turns out to be universal — conserved across virtually every nervous system on Earth, from the simplest worm to the human brain that wrote this sentence.
 
-The complexity of thought, movement, and perception emerges from the iteration of these mechanisms across billions of neurons and trillions of synapses. But the foundation is simple and mechanical: directed flow, reliable propagation, and chemical conversation between cells.
-
----
-
-## Connections Forward
-
-The action potential itself is not the end of the story. In the next chapter, we examine how the nervous system organizes these signaling units into networks. The reflex arc shows one organizing principle: sensation → integration → response. But the brain adds loops: signals that feed back on themselves, modifying their own transmission. We will see how these loops enable learning, movement, and the emergence of behavior.
-
-We will also explore how the nervous system divides itself. The central nervous system — the brain and spinal cord — integrates information. The peripheral nervous system carries signals in and out. The somatic nervous system controls voluntary movement; the autonomic nervous system maintains internal stability. Each division uses the same cellular machinery — neurons, action potentials, synapses — but organized for different purposes.
-
-Finally, we will examine neurotransmitter systems: how the brain uses different chemical signals to coordinate different functions. Dopamine in the reward system, acetylcholine in the motor system, GABA and glutamate as the primary inhibitory and excitatory neurotransmitters — each system adds a layer of control and flexibility to the basic neural code.
-
-But every level of nervous system organization — from the single synapse to the whole brain — rests on the mechanisms described here: directional communication through architecture, reliable signal propagation through the action potential, and integration through synaptic transmission.
+That is what makes it worth understanding precisely. Not as a catalog of parts but as a mechanism — a machine whose behavior follows necessarily from the properties of its components. Once you see how the voltage-gated channels produce the all-or-nothing signal, how the refractory period enforces directionality, how calcium links electrical arrival to chemical release, how coincidence detection at the NMDA receptor implements synaptic learning — once you see all of this clearly — the rest of neuroscience becomes a matter of understanding how these mechanisms are organized, combined, and scaled.
 
 ---
 
-**What would change my mind:** If evidence showed that glial cells, not neurons, do the primary computational work of the nervous system, this chapter's emphasis on neuronal integration would need revision. Current research suggests glia play larger roles than long assumed, but neurons remain the primary signaling units.
+## Exercises
 
-**Still puzzling:** The exact mechanisms by which temporal integration at the soma encodes stimulus features — how the timing of synaptic inputs relative to each other and to the soma's current state determines the rate and timing of axon firing — are still not fully understood. Models exist, but the interplay between dendritic voltage changes, the soma's membrane properties, and the axon hillock's decision-making remains an active area of research.
+**Warm-up**
+
+1. A neuron receives a stimulus that depolarizes its membrane from −70 mV to −60 mV. No action potential fires. The stimulus is then doubled in strength, depolarizing the membrane to −50 mV. This time the neuron fires. Explain why doubling the stimulus produced a qualitatively different outcome, not merely a larger version of the same outcome. What property of the voltage-gated sodium channels accounts for this? *(Tests: threshold, all-or-nothing character, positive feedback)*
+
+2. Explain why the action potential can only travel from the soma toward the axon terminal, not in reverse. Your answer should refer to a specific property of the sodium channels immediately after they open. *(Tests: refractory period, directional propagation)*
+
+3. A patient is diagnosed with multiple sclerosis, a disease in which the immune system destroys myelin around axons in the central nervous system. Predict two consequences for nerve signal transmission — one involving speed and one involving reliability — and explain the mechanism behind each prediction. *(Tests: saltatory conduction, role of myelin in signal integrity)*
+
+**Application**
+
+4. A neuron in the brain receives 80 excitatory synaptic inputs simultaneously, each producing an EPSP of 0.5 mV, and 40 inhibitory inputs simultaneously, each producing an IPSP of 0.5 mV. The neuron's firing threshold is 15 mV above resting. Show whether the neuron fires. Then explain why a single strong excitatory synapse producing a 15 mV EPSP on its own would be an unreliable design for the nervous system, even though it would technically reach threshold. *(Tests: spatial summation, integration logic, robustness of distributed computation)*
+
+5. The tetanus toxin cuts SNARE proteins specifically at inhibitory synapses in the spinal cord, leaving excitatory synapses intact. A different hypothetical toxin cuts SNARE proteins only at excitatory synapses. Predict the symptoms of poisoning by this second toxin. How would they differ from tetanus? Explain the mechanism behind each. *(Tests: inhibitory vs. excitatory balance, SNARE-mediated exocytosis, consequences of disrupting each side of synaptic balance)*
+
+6. Local anesthetic drugs (such as lidocaine) block voltage-gated sodium channels in peripheral axons, preventing them from opening. Explain why this eliminates pain sensation while still allowing the patient to feel pressure and temperature in some cases, given that different axon types have different diameters and myelination. *(Tests: voltage-gated sodium channels, axon diameter and myelination, differential sensitivity)*
+
+**Synthesis**
+
+7. A neuroscientist stimulates a presynaptic neuron repeatedly while simultaneously holding the postsynaptic neuron at a depolarized voltage. After this pairing protocol, she finds that the same presynaptic stimulus now produces a larger EPSP in the postsynaptic neuron than it did before. She then applies a drug that blocks NMDA receptors before repeating the pairing protocol in a second neuron pair, and finds no potentiation. Explain both results — the potentiation and its blockade — tracing the complete mechanism from the pairing protocol through to the increased EPSP. What does this experiment demonstrate about the role of coincidence detection in synaptic plasticity? *(Tests: LTP mechanism, NMDA receptor as coincidence detector, calcium cascade, AMPA receptor insertion)*
+
+8. Compare the design logic of the all-or-nothing action potential with the graded postsynaptic potential. Why does the nervous system use both? What problem would arise if action potentials were graded (larger stimulus → larger signal)? What problem would arise if postsynaptic potentials were all-or-nothing? *(Tests: integrative reasoning about signal encoding, why two different signal modes are necessary)*
+
+**Challenge**
+
+9. A mutation eliminates the inactivation gate of voltage-gated sodium channels — the channels can still open in response to depolarization, but they cannot enter the inactivated (locked-shut) state. They simply return directly to the resting-closed state when repolarization occurs. Predict the consequences for: (a) the action potential waveform; (b) the refractory period; (c) the direction of action potential propagation along the axon; and (d) the maximum firing frequency of the neuron. For each, explain the mechanism by which the missing inactivation gate produces the predicted change. *(Tests: deep mechanistic understanding of Na⁺ channel states, refractory period, directionality, frequency coding)*
 
 ---
 
-## Tags
-
-neuron structure • action potential • synaptic transmission • integration • myelin • Hodgkin-Huxley • saltatory conduction • SNARE proteins • long-term potentiation • neural computation
+*Byline: Nik Bear Brown*
