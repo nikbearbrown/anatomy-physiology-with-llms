@@ -1,12 +1,5 @@
 # The Heart: A Pump Built from Muscle
 
-**Option A:** The Four-Chambered Compromise
-**Option B:** Why Your Heart Beats Twice, Not Once
-**Option C:** The Hydraulic Logic of Systole and Diastole
-
----
-
-## TL;DR
 
 The human heart is not one pump but two, arranged in series: the right side pushes deoxygenated blood to the lungs, the left side pushes oxygenated blood to the body. This arrangement solves a fundamental circulatory problem—how to maintain pressure in both the lung circuit (delicate, low-pressure) and the body circuit (high-pressure, high-resistance)—by splitting the workload. The heart's electrical system (SA node to Purkinje fibers) generates its own rhythm without external instruction, while the mechanical cycle of contraction (systole) and relaxation (diastole) creates the pressure gradients that govern blood flow.
 
