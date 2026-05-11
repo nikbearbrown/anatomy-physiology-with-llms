@@ -1,338 +1,148 @@
-# The Urinary System: Making Waste into Information
+# Chapter 30 — The Urinary System: Making Waste into Information
+*Filter everything. Recover almost everything. Call what remains urine.*
 
-**TL;DR:** The kidneys filter 180 liters of blood plasma daily and reabsorb 99 percent of it, leaving the 1 percent—about 1 to 2 liters—as urine. Three mechanisms—filtration, reabsorption, and secretion—transform a crude filtrate into a solution that regulates blood pressure, electrolytes, acid-base balance, and red blood cell production. The system prioritizes water and salt recovery via pressure gradients and molecular transport.
+The kidney filters 180 liters of blood plasma every day and recovers 99 percent of it.
 
----
+That number — 180 liters — is about 45 gallons, filtered and returned, filtered and returned, every single day. The 1 percent that is not returned becomes about 1 to 2 liters of urine. The strategy is not subtle: filter everything, then recover almost everything you filtered.
 
-## Chapter Opening: The Ratio That Kills
-
-Imagine you are lying in an intensive care unit. Your kidneys have stopped working. The doctors tell you what will happen next: your potassium will climb into the danger zone, your blood will thicken with urea and other wastes, your breathing will become labored as acid accumulates in your blood, fluid will leak into your lungs. Within days, your heart may fibrillate and stop. You will experience weakness, nausea, confusion, and a sense of drowning from the inside.
-
-This is what happens when the kidney's one job fails: take the 180 liters of plasma that flow through your circulation each day and recover 99 percent of it. The remaining 1 percent—the part you cannot use—becomes urine.
-
-That ratio—filter much, recover almost everything—is the kidney's entire strategy. It does not sort molecules by slowly evaluating each one as it enters the bloodstream. It does not ask: "Is this potassium? Is this sodium?" Instead, it says: "Are you bigger than this pore?" If the answer is yes (if you are a blood cell or a large protein), you stay in the blood. If the answer is no, you go into the filtrate. From there, the nephron works backward, treating that crude filtrate as a library to recover what the body needs and discard what it doesn't.
-
-This chapter explains how a system of pressure, transport proteins, and ion gradients accomplishes one of the body's most consequential functions: not cleansing the blood (that is too romantic a description), but regulating it—managing its volume, its electrolyte composition, its acid-base balance, and its osmolarity. The kidney is a regulator of plasma makeup, and urine is the record of what regulation chose to discard.
-
-### Learning Objectives
-
-By the end of this chapter, you will understand:
-
-- How the kidney filters 180 L/day using pressure gradients across a selective membrane.
-- Why the system recovers 99 percent of its filtrate through active and passive transport.
-- How the nephron is organized into specialized regions—each with different permeabilities and transport mechanisms.
-- How the loop of Henle creates a salt gradient that enables water recovery.
-- How hormones (ADH, aldosterone, renin-angiotensin) regulate the final composition of urine.
-- Why kidney failure is fatal in days: what the kidney actually does that the body cannot survive without.
-
-### Prerequisites
-
-- Basic understanding of cell membranes, active transport, and osmosis.
-- Knowledge of blood vessel anatomy and the relationship between capillaries and interstitial fluid.
-- Familiarity with the concepts of hydrostatic and osmotic pressure.
+This seems backwards. Why not filter selectively — recognize and remove only the wastes, leave everything else alone? The reason is that selective recognition is slow and expensive. The glomerulus does not have time to interrogate each molecule. Instead, it uses pressure to push everything smaller than a blood cell or a large protein out of the blood in bulk, and then the nephron tubes work backward through that crude filtrate, recovering what the body needs and allowing the rest to be excreted. Urine is not what the kidney removed from the blood. It is what the kidney decided not to put back.
 
 ---
 
-## Concept 1: The Nephron and the Filtration Strategy
+## Filtration: Pressure Over Selection
 
-**Cold open:** A single glomerulus—a tuft of capillaries about 200 micrometers in diameter—filters blood. Each kidney contains roughly 1.3 million of them. Together, they handle about 25 percent of your cardiac output at rest, about 1,050 mL of blood per minute. Of that plasma, roughly one-fifth, or 200 mL per minute, crosses the filtration membrane and enters Bowman's capsule. The rest—the 80 percent that stays in the blood—carries cells, large proteins, and most ions.
+The glomerulus is a small ball of capillaries — about 200 micrometers in diameter — nestled inside Bowman's capsule. Each kidney contains roughly 1.3 million glomeruli. Together they receive about 25 percent of the heart's entire output at rest: roughly 1,050 milliliters of blood per minute.
 
-By the end of the day, that glomerular filtration has produced 180 liters of filtrate in men (150 in women). You will excrete less than 2 liters of that as urine. The other 178 liters your kidneys must recover or you die.
+The trick is pressure. The afferent arteriole carrying blood into the glomerulus is wide open. The efferent arteriole carrying blood out is narrower. This creates back-pressure inside the capillary tuft — about 55 mmHg. That pressure forces fluid and small solutes through the filtration membrane and into the hollow space of Bowman's capsule. Blood cells stay behind. Large proteins stay behind. Everything else — glucose, sodium, potassium, chloride, urea, creatinine, amino acids, water — crosses into the filtrate.
 
-### The Mechanism: A Sieve That Works by Pressure, Not Selection
+The filtration membrane has three layers. First, the capillary endothelium has small fenestrations — windows about 70 nanometers wide. Second, there is a basement membrane, a dense mesh of proteins. Third, podocytes wrap their elongated foot processes around the outside of the capillary; those processes interdigitate like fingers, leaving filtration slits about 25 to 60 nanometers wide. The membrane is also negatively charged, which adds a secondary filter against negatively charged proteins like albumin. The dominant filter, though, is size. Molecular weight under about 8,000 daltons crosses freely. Above 70,000 daltons almost nothing crosses. Between those values the crossing depends on both size and charge.
 
-The glomerulus is a high-pressure capillary bed. It sits between an afferent arteriole (bringing blood in) and an efferent arteriole (carrying blood out). The kidney keeps the afferent arteriole wide open and the efferent arteriole narrow, generating back-pressure inside the glomerulus. That pressure—about 55 mm Hg—is the force that drives filtration.
+<!-- → [DIAGRAM: cross-section of the glomerular filtration membrane at high magnification — show capillary lumen on the left with a red blood cell and albumin molecule (too large to pass), fenestrated endothelium, basement membrane, and podocyte foot processes with filtration slits on the right leading to Bowman's capsule; label each layer and the 25–70 nm filtration slit width; include a scale bar; caption: "the glomerular filter works by size — blood cells and large proteins stay, small molecules and ions cross, and the dominant determinant is molecular diameter relative to the filtration slit width"] -->
 
-Three structures make up the filtration membrane: fenestrations (small windows in the capillary endothelial cells), podocytes (foot cells that wrap around the capillary with finger-like projections called pedicels), and a shared basement membrane between them. The pedicels interdigitate—they lock together like interlaced fingers—leaving slits of only 70 nanometers. 
+The net filtration pressure driving all of this is remarkably small. The 55 mmHg of glomerular hydrostatic pressure is opposed by the capsular hydrostatic pressure (about 15 mmHg, from the fluid already in Bowman's capsule) and by the blood's colloid osmotic pressure (about 30 mmHg, from the large proteins remaining in the capillary that osmotically pull fluid back). The net is:
 
-The pores are small enough to exclude blood cells and medium-to-large proteins (globulins, albumin). They are large enough to allow ions (sodium, potassium, chloride), small molecules (glucose, amino acids, vitamins), and water to pass through. The proteins in the filtration membrane are negatively charged; negatively charged substances are repelled and pass less freely, while positively charged substances pass more readily. The result is a filtrate that is chemically similar to blood plasma except it lacks cells and large proteins.
+$$NPF = 55 - (15 + 30) = 10 \text{ mmHg}$$
 
-### The Trade-Off: Pressure Filtration versus Molecular Selectivity
+Ten millimeters of mercury is not much. But applied across 1.3 million glomeruli simultaneously, it produces 125 milliliters of filtrate per minute — roughly 180 liters per day. The system is fragile as a result. If blood pressure drops to 60 mmHg or below, the net filtration pressure approaches zero and filtration stops. This is why kidney failure often accompanies severe hemorrhage: as blood pressure collapses, so does glomerular filtration.
 
-The kidney chose bulk filtration by pressure over careful selection at the membrane. This has costs and benefits.
-
-**The cost:** The glomerulus must filter 180 liters per day. It does this by maintaining a low net filtration pressure (NFP) of about 10 mm Hg—a thin margin. The equation is:
-
-$$NFP = \text{Glomerular blood hydrostatic pressure} - (\text{Capsular hydrostatic pressure} + \text{Blood colloid osmotic pressure})$$
-
-Or in numbers:
-
-$$NFP = 55 - (15 + 30) = 10 \text{ mm Hg}$$
-
-This low pressure means the system is fragile. Small changes in blood pressure, plasma protein concentration, or kidney disease can disrupt filtration. If blood pressure drops below 60 mm Hg—a state called shock—the kidneys stop filtering and begin to fail. If too much protein leaks from the blood (due to damaged podocytes), the osmotic pressure inside the capillary falls, the balance tips toward hydrostatic pressure, and fluid leaks into the tissues instead of staying in the blood—a condition called edema.
-
-**The benefit:** The glomerulus works fast. It does not need enzymes to recognize each molecule. It does not need ATP at the filtration stage. It simply needs pressure. The kidney can adjust the filter rate by altering the resistance of the afferent and efferent arterioles, tightening or loosening the pressure without changing the physical structure of the pores. This autoregulation—the automatic contraction or relaxation of arteriolar smooth muscle in response to pressure changes—allows the kidney to maintain a steady glomerular filtration rate (GFR) of about 125 mL/min in men and 105 mL/min in women, even as your systemic blood pressure varies by 20 or 30 percent.
-
-### Worked Example: Computing Urine From Filtration Rate
-
-Start with cardiac output: 5,000 mL/min. About 21 percent flows through the kidneys, so renal blood flow = 1,050 mL/min. Of that, about 55 percent is plasma (the rest is cells), so renal plasma flow = 578 mL/min. Of the plasma, about 19 percent is filtered by the glomerulus, so GFR = 110 mL/min. Over a day:
-
-$$110 \text{ mL/min} \times 60 \text{ min/hr} \times 24 \text{ hr/day} = 158,400 \text{ mL} \approx 158 \text{ L/day}$$
-
-(The typical value is 180 L because both kidneys filter and accounting varies; use 125–150 mL/min as the clinical baseline.)
-
-Of that filtrate, about 99 percent must be reabsorbed. If only 90 percent were reabsorbed, you would produce 16 liters of urine per day and die of dehydration within hours. If 100 percent were reabsorbed, you would have no way to excrete wastes and would die of uremia—the accumulation of urea and other nitrogen-derived compounds—within days. The system has to recover almost everything, almost always.
-
-### Common Misconceptions
-
-**Misconception 1:** "The kidney filters out the bad stuff and keeps the good stuff." In fact, the kidney filters almost everything and then selectively recovers what the body needs. Glucose, amino acids, vitamins, ions, and most water are filtered. If the kidney kept them, you would die. The kidney re-absorbs them. Urea, creatinine, and excess ions are also filtered; the kidney allows those to leave as urine.
-
-**Misconception 2:** "The glomerulus is a clever molecular sieve that recognizes each substance." It is not. It is a size-based filter. It works by physics, not biochemistry. The filtration membrane does distinguish based on charge, but that is a secondary effect of the proteins' own charge, not active recognition.
-
-**Misconception 3:** "If my kidney function is low, I should avoid drinking water." The opposite is true. If the kidney cannot concentrate urine well, dilute urine is safer than concentrated urine. The issue is not water intake, but whether the kidney can regulate water loss.
+The kidney maintains filtration rate automatically over a wide range of blood pressures through autoregulation: the afferent arteriole's smooth muscle contracts or relaxes in response to wall tension, stabilizing the glomerular pressure even when systemic pressure fluctuates by 20 or 30 percent. This is not neural control; it is the arteriole responding directly to stretch. The result is a remarkably steady glomerular filtration rate despite the constant variation in blood pressure that comes with normal activity.
 
 ---
 
-## Concept 2: Reabsorption and the Nephron's Transport Strategy
+## The Nephron Tubule: Working Backward Through the Filtrate
 
-**Cold open:** The filtrate that emerges from Bowman's capsule is isotonic with blood—about 278 to 300 milliosmoles per kilogram. By the time the filtrate reaches the collecting duct, it has been transformed. If you are well hydrated, the filtrate will be hypotonic (dilute), perhaps 100 mOsmol/kg. If you are dehydrated, it will be hypertonic (concentrated), as high as 1,200 mOsmol/kg. The kidney has done the opposite of what a crude filter would do: it took a filtrate identical to plasma and systematically altered its composition by segment, using five different transport mechanisms and a network of hormones to control them.
+The filtrate entering Bowman's capsule is chemically nearly identical to blood plasma — minus the blood cells and large proteins. The nephron's job from this point is to recover most of it. The tubule has four segments, each specialized for a different part of the recovery, and together they transform that plasma-like filtrate into urine.
 
-### The Mechanism: The Proximal Tubule as the Nephron's Workhorse
+<!-- → [DIAGRAM: nephron anatomy overview — label all segments (Bowman's capsule, proximal convoluted tubule, descending limb of loop of Henle, ascending limb, distal convoluted tubule, collecting duct), show the cortex/medulla boundary, and indicate the vasa recta running parallel to the loop; add a percentage annotation showing cumulative water reabsorption at each segment (PCT: ~67%, loop: ~15%, DCT/collecting duct: ~15–17%); caption: "each nephron segment has different permeabilities and transport proteins — the division of labor is what allows the final 1–2% to be tuned independently of the bulk recovery"] -->
 
-The first part of the nephron tubule after Bowman's capsule is the proximal convoluted tubule (PCT). It is called "proximal" because it is the closest to the corpuscle. It is "convoluted" because it coils back on itself (one way to fit a long tube into a small space). It is where the heaviest lifting happens.
+**Proximal convoluted tubule.** The first and most metabolically active segment. Its lining cells have a dense brush border of microvilli on the luminal face and are packed with mitochondria on the blood-facing face — both signs that this segment is doing heavy active transport. And it is: by the time fluid leaves the proximal tubule, about 67 percent of the filtered water, sodium, chloride, potassium, and bicarbonate have been recovered, along with essentially all the filtered glucose and amino acids.
 
-The PCT is lined with simple cuboidal epithelial cells. The apical surface (facing the lumen) is covered with microvilli, forming a brush border—the same structure you see in the small intestine. The microvilli increase surface area for transport. The basal surface (facing the blood) is packed with mitochondria. Mitochondria produce ATP. The PCT is the most metabolically active part of the nephron because it performs active transport on a massive scale.
+Glucose recovery illustrates the mechanism. A sodium-glucose symporter on the luminal face uses the sodium concentration gradient as energy — sodium flows into the cell down its electrochemical gradient, dragging glucose with it. On the blood-facing side, the Na⁺/K⁺ ATPase continuously pumps sodium out, maintaining that gradient. Glucose exits into the interstitial fluid by facilitated diffusion and is picked up by the peritubular capillaries. The energy for the entire process comes from the ATPase; the symporter itself consumes no ATP directly, but it only works because the ATPase maintains the sodium gradient.
 
-Here is what the PCT recovers from the 180 liters of filtrate:
+This system has a capacity limit — a transport maximum, called the Tm. Under normal conditions, about 180 grams of glucose are filtered per day, and the symporters can handle all of it. But if blood glucose rises high enough — as it does in uncontrolled diabetes — the filtered glucose load can exceed the Tm. The excess glucose remains in the filtrate, and here it causes a problem beyond just appearing in the urine: glucose is osmotically active. It draws water into the tubule lumen. The volume of the filtrate stays higher than it should, less water is reabsorbed, and the person produces large volumes of dilute urine — the polyuria that is one of the classic symptoms of uncontrolled diabetes. It is not that the kidney is working badly. The kidney is working correctly. The transport system is simply overwhelmed.
 
-- Almost all glucose (about 180 g/day filtered, ~180 g reabsorbed). Glucose uses a symporter—a transport protein that moves glucose into the cell coupled to sodium entering the cell. Sodium is pumped out of the basal side by the Na+/K+ ATPase. The gradient created by that pump powers the symporter.
-- Almost all amino acids and small proteins. Same mechanism: symport with sodium.
-- About 67 percent of sodium and water. The water follows sodium osmotically—this is called obligatory water reabsorption because the water has no choice; it must follow the osmotic gradient created by sodium transport.
-- About 50 percent of bicarbonate (HCO3−), critical for acid-base balance. This one is elegant: bicarbonate reacts with hydrogen ions in the lumen to form carbonic acid, the enzyme carbonic anhydrase catalyzes it to CO2 and water. The CO2 diffuses into the cell, reverses the reaction, and bicarbonate is cotransported with sodium across the basal membrane back into the blood.
-- Ions like chloride, potassium, calcium, and magnesium using a mix of active transport, facilitated diffusion, and simple diffusion.
+Water reabsorption in the proximal tubule follows sodium without any hormonal instruction — obligatory water reabsorption, because the osmotic gradient created by sodium transport is immediately followed by water moving through aquaporin channels. Two-thirds of the filtered water is recovered here before the kidney even asks what the body's hydration status is.
 
-Urea, creatinine, and ammonia (nitrogen wastes) are not reabsorbed in the PCT; they remain in the filtrate to eventually be excreted.
+**The loop of Henle.** The hairpin-shaped tube that descends into the inner medulla and ascends back to the cortex is not where urine gets concentrated. It is where the conditions for concentration are created. That distinction matters.
 
-By the time filtrate leaves the PCT, about 67 percent of the water and sodium have been recovered, along with nearly all glucose and amino acids. The osmolarity of the filtrate remains isotonic with blood—about 300 mOsmol/kg. The PCT has not yet created a concentration gradient; it has created a flow of solutes and water back into the bloodstream.
+The descending limb is permeable to water but not to solutes. As the filtrate descends, it enters the medullary interstitium — the tissue space deep in the kidney — where the salt concentration is high. Water moves osmotically out of the descending limb into the interstitium and is carried away by the vasa recta capillaries. The filtrate becomes progressively more concentrated as it descends, reaching about 1,200 mOsmol/kg at the hairpin turn — four times the concentration of normal plasma.
 
-### The Loop of Henle: The Osmotic Gradient Engine
+The ascending limb is impermeable to water. It has ion transporters, particularly the Na⁺/K⁺/2Cl⁻ symporter, that actively pump sodium and chloride out of the lumen into the interstitium. Because water cannot follow, the filtrate's osmolarity falls as it ascends. By the time the fluid reaches the distal tubule, it is actually hypotonic — more dilute than blood, perhaps 100 mOsmol/kg.
 
-Here is where the system gets sophisticated. The filtrate next enters the loop of Henle, a hairpin-shaped tube that descends into the medulla and then ascends back to the cortex. The loop has two limbs, each with different permeabilities.
+The loop has accomplished something remarkable: it has created a steep salt gradient in the medullary interstitium — from about 300 mOsmol/kg at the junction with the cortex to 1,200 mOsmol/kg at the papilla — without concentrating the filtrate itself. That gradient will be used later. The vasa recta capillaries that run parallel to the loop preserve this gradient by flowing slowly in a countercurrent arrangement: blood descending alongside the descending loop picks up solutes and loses water, blood ascending alongside the ascending loop loses solutes and gains water back. If the vasa recta flowed fast, it would wash away the gradient within minutes.
 
-**The descending limb** is lined with simple squamous epithelium. It is permeable to water but not to solutes. As the filtrate descends, it encounters increasingly salty interstitial fluid (the space between cells in the medulla). Water osmotically exits the descending limb into the interstitial space and is picked up by the vasa recta capillaries. The filtrate becomes more concentrated. By the bottom of the loop, the osmolarity reaches 1,200 mOsmol/kg—four times higher than blood.
+<!-- → [DIAGRAM: countercurrent multiplier system — show the loop of Henle with the descending limb (water-permeable, blue arrows for water exiting) and ascending limb (solute-permeable/water-impermeable, red arrows for Na⁺/Cl⁻ being pumped out); annotate osmolarity values at several points along the loop from 300 mOsmol/kg at the cortex to 1200 mOsmol/kg at the hairpin; show the parallel vasa recta descending (picking up solute, losing water) and ascending (losing solute, gaining water); caption: "the loop builds the gradient — the descending limb concentrates the filtrate by losing water; the ascending limb dilutes it by losing solute without water; what persists is a salt gradient in the medullary interstitium that the collecting duct will later exploit"] -->
 
-**The ascending limb** is lined with cuboidal epithelium and is impermeable to water (it lacks aquaporin water channels). But it is rich in Na+/K+/2Cl− symporters that actively pump sodium and chloride out of the lumen into the interstitial space. As sodium is removed while water cannot follow, the osmolarity of the filtrate drops. By the time the filtrate reaches the distal convoluted tubule, it is hypotonic—as low as 100 mOsmol/kg.
+**Distal convoluted tubule and collecting duct.** By the time filtrate reaches the DCT, about 85 percent of the original 180 liters has been recovered. Fifteen liters remain. The final segment of the nephron — DCT feeding into collecting duct — passes back through the medullary gradient the loop of Henle created.
 
-This structure—descending limb permeable to water, ascending limb impermeable to water—creates a countercurrent multiplier system. The loop does not concentrate urine directly. Instead, it creates a massive salt gradient in the medulla (the concentration rising to 1,200 mOsmol/kg deep in the tissue). This gradient is then used by the collecting ducts later to extract water from the filtrate.
+Here is where hormonal control enters. The collecting duct, running through the medullary interstitium from 300 to 1,200 mOsmol/kg, is lined with principal cells. Those cells contain aquaporin water channels, but only when antidiuretic hormone (ADH, also called vasopressin) is present. ADH is made in the hypothalamus and released by the posterior pituitary in response to rising blood osmolarity. When you are dehydrated and blood osmolarity climbs — even by 1 to 2 percent — ADH is released, aquaporin channels are inserted into the collecting duct's luminal membrane, and water flows osmotically out of the duct into the increasingly concentrated interstitium, to be recovered by the vasa recta.
 
-The vasa recta (the capillaries that parallel the loop) are crucial. They descend slowly alongside the descending loop, picking up solutes and losing water. They ascend slowly alongside the ascending loop, losing solutes and gaining water. By moving slowly, they preserve the salt gradient rather than washing it away. If blood flow through the vasa recta were too fast, the system would collapse.
+When ADH is present and the medullary gradient is intact, the kidney can concentrate urine to 1,200 mOsmol/kg — four times the osmolarity of plasma. When ADH is absent (when you are well-hydrated and osmolarity is normal), the aquaporin channels are not inserted, water stays in the duct, and the urine remains dilute. The loop of Henle built the gradient; ADH decides whether to use it.
 
-### The Collecting Duct: Water Recovery Under Hormonal Control
-
-By the time the filtrate reaches the collecting duct, about 85 percent of the original water has been reabsorbed. Only 15 liters remain (out of 180). The collecting duct passes through the medulla, where the osmolarity of the interstitial space is highest (about 1,200 mOsmol/kg at the tip).
-
-The collecting duct is lined with two types of cells: principal cells (which handle water and sodium recovery) and intercalated cells (which handle acid-base regulation). The principal cells contain aquaporin water channels, but only in response to the hormone antidiuretic hormone (ADH, also called vasopressin). 
-
-When ADH levels are high (when you are dehydrated), it binds to receptors on principal cells. This triggers the insertion of aquaporin channels into the apical membrane. Water osmotically flows out of the duct into the interstitial space and is picked up by the vasa recta. The urine becomes concentrated. 
-
-When ADH levels are low (when you are well hydrated), fewer aquaporin channels are inserted. Water remains in the duct and is excreted. The urine becomes dilute.
-
-This is the final adjustment. By controlling the number of water channels in the last 15 liters of filtrate, the body can produce anywhere from 500 mL to 20 liters of urine per day, depending on hydration status. This system is so sensitive that a change of just 1 to 2 percent in blood osmolarity can shift urine output dramatically.
-
-### Trade-Off: Recovering Water Requires Maintaining a Medullary Gradient
-
-The countercurrent multiplier system has a profound limitation: it is metabolically expensive. The ascending loop of Henle must actively pump sodium out constantly, consuming ATP. The system is fragile; if blood flow slows too much, if the loop's structure is disrupted, if the vasa recta are damaged, the gradient collapses and water cannot be concentrated.
-
-More importantly, this design means the kidney must choose between diluting the blood (by excreting dilute urine) and concentrating it (by excreting concentrated urine). It cannot do both simultaneously. If you drink a liter of water and your blood osmolarity drops, your kidneys will suppress ADH, the aquaporin channels will disappear from the collecting duct, and you will produce dilute urine to remove the excess water. You will also lose sodium in that urine because the collecting duct cannot selectively reabsorb water without also altering sodium transport.
-
-Conversely, if you are severely dehydrated, your kidneys can produce very concentrated urine (up to 1,200 mOsmol/kg), but this is only possible if the medullary gradient is intact and if enough time has passed for ADH to insert the aquaporin channels. A person trapped in the desert cannot immediately produce maximally concentrated urine; the system needs time to adjust.
-
-### Worked Example: Tracing a Glucose Molecule Through the Nephron
-
-Glucose is filtered by the glomerulus. By the calculation earlier, about 180 grams of glucose enter the filtrate daily (because normal blood glucose is about 90 mg/dL and 180 L of plasma is filtered). 
-
-In the proximal tubule, glucose binds to a Na+/glucose symporter on the apical membrane. Sodium enters the cell first (down its electrochemical gradient created by the Na+/K+ ATPase on the basal side). Glucose is dragged in with it. On the basal side, glucose exits via facilitated diffusion into the interstitial space and is picked up by the peritubular capillaries. Glucose never appears in normal urine.
-
-If blood glucose rises (as in diabetes mellitus type 1, where the pancreas produces insufficient insulin), the number of glucose symporters becomes a limiting factor. Each transporter can move a maximum amount of glucose per unit time (called the transport maximum, or Tm). In males, Tm is about 375 mg/min. If blood glucose is high enough that 375 mg/min exceeds the filtered load that can be reabsorbed, the excess glucose appears in the urine. This is glycosuria. The presence of glucose in the urine is not due to failed filtration; it is due to saturated reabsorption.
-
-### Common Misconceptions
-
-**Misconception 1:** "The loop of Henle makes concentrated urine." It does not. The loop creates the salt gradient; the collecting duct uses that gradient (in the presence of ADH) to concentrate urine. Without the collecting duct and ADH, you would not be able to concentrate urine, regardless of loop function.
-
-**Misconception 2:** "Water and salt are reabsorbed together." They are often reabsorbed in the same location, but the mechanisms are distinct. In the proximal tubule, water follows salt osmotically (obligatory reabsorption). In the collecting duct, water reabsorption is decoupled from salt reabsorption by ADH-regulated aquaporin channels. This is why you can excrete dilute urine (water loss > salt loss) or concentrated urine (water retention > salt retention).
-
-**Misconception 3:** "ADH makes more urine." It does the opposite. ADH (antidiuretic hormone—the name means "against urine flow") reduces urine volume by promoting water reabsorption.
+Aldosterone adds another layer of control. Released from the adrenal cortex in response to angiotensin II (as part of the renin-angiotensin-aldosterone cascade), aldosterone acts on the DCT and collecting duct to increase the number of sodium channels on the luminal face and Na⁺/K⁺ ATPase pumps on the blood-facing side. More sodium is reabsorbed. Water follows via the ADH-regulated aquaporins. Blood volume increases.
 
 ---
 
-## Concept 3: Regulation of Blood Pressure and Electrolytes
+## The RAAS: When the Kidney Senses That the Blood Is Running Out
 
-**Cold open:** A person's blood pressure drops. Perhaps they have hemorrhaged, or they are dehydrated. The sympathetic nervous system detects this immediately and constricts arteries, increasing pressure. But that is a temporary fix. Within minutes to hours, a longer-term solution must activate. If the body does not recover blood volume, the heart will weaken, organs will fail, and the person will die of shock.
+Tucked at the junction between the afferent arteriole and the early distal tubule is a structure called the juxtaglomerular apparatus — the kidney's blood pressure sensor. It has two components that talk to each other.
 
-The kidney's solution is the renin-angiotensin-aldosterone system (RAAS). A hormone cascade that begins in the kidney and ends in the kidney. It is one of the most consequential regulatory systems in the body, and it is initiated by just 1.3 million cells per kidney sensing that blood pressure has dropped.
+The macula densa is a patch of epithelial cells in the tubule wall. They sense sodium concentration and flow rate in the filtrate passing by. When those values drop — as they do when blood pressure falls, blood volume decreases, or when the person has lost sodium — the macula densa signals adjacent cells in the arteriole wall.
 
-### The Mechanism: The Juxtaglomerular Apparatus and the Renin-Angiotensin Cascade
+Those cells — juxtaglomerular cells — are modified smooth muscle cells. When they receive the signal, they release renin, an enzyme, into the bloodstream. Renin acts on angiotensinogen, a protein circulating in plasma, and cleaves a fragment from it called angiotensin I. Angiotensin I circulates to the lungs, where angiotensin-converting enzyme (ACE) converts it to angiotensin II. Angiotensin II is a potent vasoconstrictor. It tightens arterioles throughout the body, raising blood pressure immediately. It also acts on the adrenal cortex to release aldosterone, which drives sodium reabsorption in the kidney's distal tubule and collecting duct, increasing blood volume. Angiotensin II also stimulates ADH release from the hypothalamus, further promoting water retention. And it triggers thirst.
 
-At the boundary between the afferent arteriole and the early distal convoluted tubule sits a specialized sensor called the juxtaglomerular apparatus (JGA). It has two main components:
+<!-- → [DIAGRAM: RAAS cascade — linear flowchart: blood pressure/sodium drop → macula densa → juxtaglomerular cells release renin → angiotensinogen (liver) → angiotensin I → ACE (lungs) → angiotensin II → three parallel arrows: (1) vasoconstriction (systemic arterioles); (2) adrenal cortex → aldosterone → DCT/collecting duct → sodium reabsorption → blood volume up; (3) hypothalamus → ADH → collecting duct → water retention; feedback arrow from "blood pressure restored" back to macula densa with label "negative feedback — renin release suppressed"; caption: "the RAAS is a three-pronged response: vasoconstrict immediately, reabsorb sodium to increase blood volume, retain water to support that volume — all triggered by a drop sensed in the kidney itself"] -->
 
-The **macula densa** is a cluster of cuboidal epithelial cells lining the DCT. These cells have a single cilium and are positioned to detect two things: the concentration of sodium in the filtrate and the flow rate of fluid through the tubule. When either drops (indicating low blood pressure and low sodium delivery to the DCT), the macula densa releases paracrine signals—adenosine and ATP.
+The cascade is self-limiting. As blood pressure and plasma sodium return to normal, the macula densa reduces its signal, renin release falls, angiotensin II levels drop, aldosterone wanes, and the system returns to baseline. The whole loop — from pressure drop detected in the kidney to blood volume restored by the kidney — runs without brain involvement. It is the kidney recognizing that the blood is becoming depleted and responding by holding onto everything it can until the problem is resolved.
 
-The **juxtaglomerular cells** are modified smooth muscle cells lining the afferent arteriole. When they receive the signal from the macula densa, they release the enzyme renin into the bloodstream.
-
-Renin catalyzes the first step in a cascade:
-
-1. Renin cleaves a portion of angiotensinogen (a protein made by the liver) to produce **angiotensin I**.
-2. Angiotensin-converting enzyme (ACE), made in the lungs, converts **angiotensin I** to **angiotensin II**.
-3. Angiotensin II is a systemic vasoconstrictor. It tightens arteries throughout the body, raising blood pressure immediately.
-4. Angiotensin II also stimulates the adrenal cortex to release **aldosterone**, a steroid hormone.
-5. Aldosterone acts on the collecting duct and DCT to increase Na+/K+ ATPase pumps and sodium channels on the apical membrane. More sodium is reabsorbed.
-6. Water follows sodium osmotically (via ADH-induced aquaporin channels in the collecting duct). Blood volume increases.
-
-The result: blood pressure recovers.
-
-But there is a feedback. As blood pressure and sodium levels normalize, the macula densa senses the change and reduces renin release. The cascade slows. This is a self-limiting system—it activates when needed and shuts down when the problem is solved.
-
-### The Mechanism: ADH and Water Balance
-
-Parallel to the RAAS is the ADH system. ADH (antidiuretic hormone, also called vasopressin) is made in the hypothalamus and released by the posterior pituitary. It responds to blood osmolarity, not blood pressure.
-
-When blood osmolarity rises (when you lose water or consume salt), osmoreceptors in the hypothalamus detect the change. They trigger the release of ADH. ADH travels in the bloodstream to the collecting duct, binds to receptors on principal cells, and triggers the insertion of aquaporin water channels into the cell membrane. Water is osmotically reabsorbed from the collecting duct. Blood osmolarity falls.
-
-When blood osmolarity drops (when you drink water), osmoreceptors suppress ADH release. Aquaporin channels are removed from the collecting duct membrane. Water is not reabsorbed; it is excreted as dilute urine.
-
-This system is exquisitely sensitive. A change of just 1 to 2 percent in blood osmolarity can double or halve ADH levels. The threshold for ADH release is about 285 mOsmol/kg; below that, little ADH is released; above that, release increases steadily.
-
-### The Mechanism: Acid-Base Regulation
-
-The kidney also regulates blood pH by handling bicarbonate and hydrogen ions.
-
-Bicarbonate (HCO3−) is a critical buffer in blood. When acid is produced (from metabolism, from ketones, from lactate), bicarbonate neutralizes it. But bicarbonate is used up in the process. The kidney must recover most of the filtered bicarbonate and secrete hydrogen ions to maintain the buffer system.
-
-In the proximal tubule, bicarbonate is recovered via the carbonic anhydrase enzyme system described earlier. In the distal tubule and collecting duct, intercalated cells secrete hydrogen ions (H+) into the filtrate and reabsorb bicarbonate. This removes acid from the blood and retains buffering capacity.
-
-When the blood becomes too acidic (acidosis), the kidney secretes more H+ and reabsorbs more HCO3−. When the blood becomes too basic (alkalosis), the kidney secretes less H+. This system works in concert with the lungs (which expire CO2, a form of acid) to keep blood pH between 7.35 and 7.45.
-
-### Trade-Off: Rapid Pressure Response Versus Precise Osmolarity Control
-
-The RAAS is fast—it activates within minutes. But it is coarse. Renin stimulation also increases glomerular filtration rate by constricting the efferent arteriole, which increases pressure upstream. This is a reflex that serves blood pressure but may increase filtration when the body actually needs to conserve water.
-
-ADH is more precise—it can adjust water loss in small increments. But it is slower, and it only controls the last 15 liters of the 180 liters filtered. If you have lost 30 percent of your blood volume, no amount of aquaporin channel insertion in the collecting duct will save you. You need the RAAS to contract arteries and trigger salt recovery. Both systems are necessary.
-
-Moreover, the two systems can work at cross-purposes. If you are severely dehydrated (high osmolarity, low blood pressure), both ADH and renin are activated. ADH causes water reabsorption; aldosterone (via RAAS) causes sodium reabsorption. In this case, both are beneficial—water recovery helps blood volume and osmolarity. But if you are bleeding and your blood pressure drops while your osmolarity stays normal, the RAAS activates but ADH does not. Sodium and water are recovered, but the kidney does not waste aquaporin channels on water recovery when osmolarity is fine.
-
-### Worked Example: Dehydration and the Integrated Response
-
-You eat a salty meal (high sodium intake) and do not drink water. Your blood osmolarity rises from 290 to 295 mOsmol/kg.
-
-Within minutes: Osmoreceptors in the hypothalamus detect the change. ADH is released. Aquaporin channels are inserted into the collecting duct.
-
-The effect: The collecting duct reabsorbs more water. Urine volume drops. Your blood osmolarity begins to return to normal. ADH release slows.
-
-The paradox: You are now slightly dehydrated. Your blood volume has dropped. But your osmolarity is back to normal, so ADH suppression stops. You feel thirsty (a separate system triggered by osmoreceptors and angiotensin II). You drink water. Blood volume and osmolarity both return to normal.
-
-### Common Misconceptions
-
-**Misconception 1:** "The kidney regulates blood pressure." It does, but not exclusively. The heart, the blood vessels, the sympathetic nervous system, and several hormones all play roles. The kidney's role is primarily through salt and water balance, which affects blood volume, which affects pressure.
-
-**Misconception 2:** "High salt intake raises blood pressure because the kidney cannot excrete it." In healthy people with functioning kidneys, excess sodium is readily excreted in urine. High salt intake raises blood pressure primarily by increasing blood volume (water follows salt osmotically); the kidneys eventually excrete the excess, but only if blood pressure rises enough to increase glomerular filtration.
-
-**Misconception 3:** "ADH and aldosterone do the same thing." They do not. ADH regulates water reabsorption (free water clearance). Aldosterone regulates sodium reabsorption. ADH acts on the collecting duct; aldosterone acts on the DCT and collecting duct. They often work together, but they are regulated independently and have different targets.
+The system matters because the consequences of getting it wrong are immediate. If you lose 1 liter of blood, your blood pressure drops. If the RAAS does not activate within minutes, that pressure drop propagates: cardiac output falls, organ perfusion falls, the remaining kidney filtration slows, waste products accumulate, the heart arrhythmias from rising potassium. The RAAS is not a slow background regulator. It is the first hormonal line of defense against volume depletion.
 
 ---
 
-## Integration and Synthesis
+## Acid-Base Balance: The Kidney as pH Buffer
 
-The nephron is a system of trade-offs. It prioritizes recovery of water and salt at the expense of specificity. It uses pressure to filter and active transport to recover. It divides the work across multiple segments, each with specialized functions:
+The lung excretes CO₂, the gaseous form of acid. The kidney handles everything else: it regulates bicarbonate, the main buffer in blood, and it secretes hydrogen ions directly into the filtrate.
 
-- The glomerulus uses pressure to filter indiscriminately.
-- The PCT uses active transport to recover glucose, amino acids, and most ions.
-- The loop of Henle uses differential permeability and salt pumping to create an osmotic gradient.
-- The DCT uses active transport to fine-tune sodium and calcium recovery.
-- The collecting duct uses ADH-regulated aquaporins to recover water according to need.
+Bicarbonate in the filtrate is recovered in the proximal tubule by a clever indirect mechanism. Bicarbonate cannot be transported directly across the luminal membrane in most segments. Instead, carbonic anhydrase in the brush border catalyzes the combination of filtered bicarbonate with secreted hydrogen ions to form carbonic acid, which immediately dissociates to CO₂ and water. The CO₂ diffuses into the tubule cell, carbonic anhydrase re-forms carbonic acid from CO₂ and intracellular water, and the bicarbonate produced is transported out the basal side into the blood while the hydrogen ion is secreted back into the lumen to continue the cycle. The net result: bicarbonate is recovered from the filtrate and returned to the blood, and hydrogen ions are secreted into the urine. Urine is acidic in part because the kidney is continuously exporting acid.
 
-This division allows each segment to be optimized for its task. It also means failure in one segment has specific consequences. If the glomerular filtration membrane is damaged (as in glomerulonephritis), proteins leak out, osmotic pressure falls, and edema develops. If the loop of Henle is damaged, the kidney cannot concentrate urine and the person produces excessive dilute urine (as in some forms of kidney disease). If the collecting duct loses sensitivity to ADH (as in central diabetes insipidus, when the pituitary stops making ADH), the same outcome occurs—excessive dilute urine.
+In the distal segments, intercalated cells handle acid-base regulation. Type A intercalated cells secrete hydrogen ions and recover bicarbonate — appropriate when the blood is too acidic. Type B intercalated cells do the reverse — appropriate when the blood is too basic. The kidney can excrete urine with a pH as low as 4.5 or as high as 8.0, a range of three and a half pH units, in response to the body's acid-base status.
 
-The kidney also manages a second set of regulations beyond filtration and reabsorption: secretion. Cells in the PCT, DCT, and collecting duct actively pump substances out of the blood into the filtrate. Creatinine (a muscle breakdown product) is secreted in the PCT, allowing the kidney to excrete it even though the glomerulus filters it at a low rate. Potassium is secreted in the DCT and collecting duct (under the influence of aldosterone), allowing the kidney to regulate potassium levels precisely. Hydrogen ions are secreted throughout the nephron to maintain acid-base balance.
-
-The three processes—filtration, reabsorption, secretion—work together to modify the plasma composition. The kidney filters what the body does not immediately need, recovers what it does need, and discards what is toxic or in excess. The result is urine.
+Normal blood pH is 7.35 to 7.45. Below 7.35 is acidosis; above 7.45 is alkalosis. The kidneys compensate slowly but powerfully. In metabolic acidosis — from diabetic ketoacidosis, lactic acidosis, or chronic kidney disease — the kidney secretes more hydrogen ions and recovers more bicarbonate. In metabolic alkalosis — from prolonged vomiting, which loses gastric acid, or from excess antacid consumption — the kidney secretes less hydrogen and allows more bicarbonate to be excreted. These renal compensations take hours to days, compared to minutes for respiratory compensation via changes in breathing rate. But the renal correction is more complete and more sustained.
 
 ---
 
-## Graduated Exercises
+## What Failure Looks Like
 
-### Warm-Up: Concept Recognition
+When the kidneys fail, the consequences are not abstract. They follow directly from what the kidney does.
 
-**Exercise 1.1:** In the normal kidney, glucose is filtered by the glomerulus but does not appear in the urine. Which of the following explains this?
+Urea and creatinine accumulate in the blood — uremia. Urea is toxic at high concentrations, causing nausea, confusion, and eventually coma. Potassium accumulates because neither filtered potassium nor secreted potassium can be cleared without nephron function. Hyperkalemia at levels above about 6 mEq/L causes cardiac arrhythmias that can be fatal. Bicarbonate cannot be recovered and hydrogen ions cannot be secreted, so the blood becomes progressively more acidic — metabolic acidosis. Water and sodium cannot be regulated, so fluid accumulates in the interstitium and eventually in the lungs — pulmonary edema. Red blood cell production falls because the kidney is the primary source of erythropoietin, the hormone that stimulates bone marrow to make red blood cells; anemia develops.
 
-a) The glomerulus has a selective pore that prevents glucose from filtering.
-b) Glucose is reabsorbed by active transport in the proximal tubule.
-c) Glucose is reabsorbed by simple diffusion in the loop of Henle.
-d) The peritubular capillaries actively secrete glucose back into the blood.
-
-**Answer:** (b). Glucose is filtered by size; it passes through the 70 nm pores. It is then reabsorbed by Na+/glucose symport in the PCT. See Concept 2 section on the PCT.
-
-**Exercise 1.2:** If blood osmolarity rises to 295 mOsmol/kg, what happens to ADH release?
-
-a) ADH release increases.
-b) ADH release decreases.
-c) ADH release is unaffected.
-d) ADH levels rise, then fall.
-
-**Answer:** (a). Osmoreceptors detect the rise in osmolarity and trigger increased ADH release from the posterior pituitary. See Concept 3 section on ADH and water balance.
-
-### Application: Mechanism Reasoning
-
-**Exercise 2.1:** A patient has proteinuria (protein in the urine). The protein is primarily albumin, a large plasma protein. What does the presence of albumin in the urine indicate?
-
-a) The glomerulus is functioning normally but reabsorption is impaired.
-b) The glomerular filtration membrane is damaged.
-c) The proximal tubule is not secreting enough albumin.
-d) Aldosterone levels are too high.
-
-**Answer:** (b). Albumin is too large to normally filter (it is larger than 8 nm). Its presence in urine indicates that the filtration barrier has been damaged, likely due to disease affecting the podocytes or basement membrane. This is a hallmark of glomerulonephritis.
-
-**Exercise 2.2:** You drink 2 liters of water rapidly. Over the next hour, your blood osmolarity begins to fall. Which of the following will occur?
-
-a) ADH levels rise, aquaporin channels are inserted, and you excrete dilute urine.
-b) ADH levels fall, aquaporin channels are removed, and you excrete dilute urine.
-c) Renin levels rise, aldosterone increases, and you excrete concentrated urine.
-d) ADH and aldosterone both increase, promoting water reabsorption.
-
-**Answer:** (b). When blood osmolarity falls, osmoreceptors suppress ADH release. Without ADH, aquaporin channels are not inserted into the collecting duct. Water is not reabsorbed and remains in the filtrate, producing dilute urine. This is how the body excretes excess water.
-
-### Synthesis: System Integration
-
-**Exercise 3.1:** A patient has uncontrolled type 1 diabetes with very high blood glucose (400 mg/dL). Over the course of a day, the patient produces 5 liters of urine instead of the normal 1 to 2 liters. Explain the mechanism.
-
-**Answer:** The high blood glucose exceeds the transport maximum (Tm) for glucose reabsorption in the proximal tubule. Glucose is filtered by the glomerulus at a high rate (because plasma glucose is high). The Na+/glucose symporters in the PCT cannot handle the load; they are saturated. Glucose accumulates in the filtrate and remains in the urine (glycosuria). Glucose is an osmotically active molecule. It draws water into the filtrate (osmotic diuresis). The increased filtrate volume is not fully reabsorbed, even in the loop of Henle and collecting duct, so excess water is excreted as urine. Additionally, if the diabetes is so severe that the patient is developing diabetic ketoacidosis, the acidic pH can suppress ADH, further reducing water reabsorption. The result is polyuria—excessive urine production.
-
-**Exercise 3.2:** A patient has chronic kidney disease and has lost about 60 percent of kidney function (GFR is about 30 mL/min, down from a normal of 125 mL/min). The patient's blood pressure is high, and blood tests show elevated creatinine and elevated potassium. Explain the relationships.
-
-**Answer:** With reduced GFR, fewer nephrons are filtering and reabsorbing. Creatinine is secreted (not reabsorbed) in the PCT, but if fewer nephrons are functioning, less creatinine is cleared, so it accumulates in the blood. Similarly, potassium is filtered and secreted in the DCT and collecting duct; reduced kidney function means less potassium is excreted, so it accumulates (hyperkalemia). The high blood potassium can cause cardiac arrhythmias, which is a major risk in advanced kidney disease.
-
-For blood pressure: The remaining healthy nephrons may still reabsorb sodium and water adequately (at least until very late-stage disease). But with reduced function, the kidney may require higher blood pressure to maintain adequate filtration. Additionally, reduced kidney function impairs the kidney's ability to excrete sodium; sodium accumulates, water follows, blood volume increases, and blood pressure rises. The damaged kidney cannot downregulate the renin-angiotensin system adequately, so RAAS activation may persist even when blood pressure is already high, perpetuating hypertension.
-
-### Challenge: Problem-Solving and Inference
-
-**Exercise 4.1:** A researcher discovers a drug that blocks aquaporin water channels in the collecting duct. The drug is given to a normal, healthy volunteer who continues to drink and eat normally. Predict the effects over a 24-hour period.
-
-**Answer:** The volunteer will experience polyuria (excessive urine output, possibly 5–10 liters per day) because water cannot be reabsorbed from the collecting duct. Blood osmolarity will rise slightly (hypernatremia, or elevated sodium concentration) because water is being lost faster than it would normally be. The osmoreceptors in the hypothalamus will sense the increased osmolarity and trigger intense thirst. The volunteer will drink more water to compensate. If they drink enough, osmolarity will return to normal, but urine volume will remain elevated. This condition mimics nephrogenic diabetes insipidus, in which the collecting duct loses sensitivity to ADH.
-
-If the volunteer becomes unable to drink (e.g., they are sedated or the drug is given to an unconscious patient), severe hypernatremia and dehydration will develop within hours to days, leading to confusion, seizures, coma, and death.
+These consequences typically unfold over days to weeks in acute kidney failure, depending on residual function. Dialysis — which artificially filters the blood by diffusion across a semipermeable membrane — can replace the filtration function but cannot replace erythropoietin production, cannot fully replace acid-base regulation, and does not have the kidney's moment-to-moment sensitivity to blood pressure and osmolarity. The kidney's job is not simply to filter toxins. It is to continuously sample the composition of the blood, compare it to the body's needs, and adjust what it retains and excretes accordingly. That active, continuous regulation is what no machine fully replaces.
 
 ---
 
-## Chapter Summary
+## The Three Processes and Why They Have to Work Together
 
-The urinary system accomplishes three essential functions: it filters the blood, reabsorbs what the body needs, and excretes what it does not. The volume of work is staggering—180 liters filtered daily, 99 percent recovered—but the process is built on simple physics and biochemistry.
+Every substance in the blood has a different fate in the kidney, determined by the combination of three processes: filtration, reabsorption, and secretion.
 
-The glomerulus uses pressure gradients to filter blood indiscriminately, excluding only cells and large proteins. The filtrate enters the nephron tubule, where specialized segments recover specific substances. The proximal tubule handles glucose, amino acids, and about two-thirds of sodium and water. The loop of Henle creates a salt gradient in the medulla that allows the collecting duct to recover or discard water according to the body's hydration status. The collecting duct responds to ADH (which regulates water) and aldosterone (which regulates sodium).
+Filtration is bulk and indiscriminate. Everything small goes through.
 
-Parallel to this mechanical work is a hormonal layer. Renin-angiotensin-aldosterone regulates blood pressure and sodium. ADH regulates blood osmolarity and water balance. These systems interact: when blood pressure drops, the kidney activates RAAS to increase blood volume; when blood osmolarity rises, the kidney activates ADH to conserve water.
+Reabsorption is selective and segment-specific. Glucose is reclaimed in the proximal tubule. Sodium is reclaimed throughout. Water follows sodium in the proximal tubule and is controlled by ADH in the collecting duct. Bicarbonate is reclaimed in the proximal tubule and fine-tuned in the distal segments. Potassium is reclaimed in the proximal tubule and the ascending loop, then adjusted downward in the DCT and collecting duct by aldosterone-driven secretion.
 
-Failure of this system is fatal. Without the kidney, the body cannot excrete urea, cannot regulate potassium, cannot maintain acid-base balance, and cannot preserve blood volume. Death follows within days. This is not because the kidney is doing something mysterious; it is because the kidney is doing something we have no way to do without it: process 180 liters of plasma and recover exactly the right amount of water and salt to sustain life.
+Secretion adds substances to the filtrate from the blood side — a way to excrete things that were not filtered effectively in the glomerulus or to adjust concentrations fine-tuned by filtration and reabsorption. Creatinine is secreted in the proximal tubule. Potassium is secreted in the DCT. Hydrogen ions are secreted throughout. Organic acids and many drugs are secreted in the proximal tubule by dedicated transport proteins.
 
-### What Would Change My Mind
+The kidney excretes creatinine by both filtration and secretion, which is why creatinine clearance overestimates GFR — the kidney adds creatinine to the filtrate beyond what the glomerulus filtered, making it appear that more plasma was cleared per minute than actually was. This is a minor correction in healthy kidneys but becomes significant in disease.
 
-Evidence that the glomerular filtration membrane can selectively transport molecules by recognition (rather than size) would fundamentally alter the model. A demonstration that the kidney can excrete urea or creatinine without first filtering them would revise the understanding of secretion. A finding that ADH has a role in blood pressure regulation independent of water reabsorption would extend the model.
-
-### Still Puzzling
-
-The precise mechanism by which the macula densa senses sodium concentration and flow rate remains incompletely understood. The sensitivity of osmoreceptors—how they distinguish between 290 and 295 mOsmol/kg—is not fully explained by current models. The reason the countercurrent multiplier system reaches a maximum gradient of about 1,200 mOsmol/kg (rather than higher or lower) is also not fully resolved.
+The ratio of all three processes determines what ends up in the urine and in what concentration. Kidney function is measured not by how much you excrete, but by how accurately the excretion matches what the body needs to discard and retain. Urine is the record of those decisions — information, not simply waste.
 
 ---
 
-## Tags
+## Exercises
 
-glomerular filtration; nephron; reabsorption; loop of Henle; renin-angiotensin-aldosterone; ADH; osmolarity; blood pressure; electrolytes
+**Warm-up**
 
+1. The glomerular filtration membrane has three layers and filters primarily by size. Albumin (67,000 daltons, negatively charged) does not normally appear in urine. Which layer is most important for excluding albumin, and why does the charge of the membrane matter as a secondary factor?
+
+2. The net filtration pressure in the glomerulus is only 10 mmHg. Identify the three pressures that determine this value, state the direction each one acts (toward or away from filtration), and predict what happens to GFR if plasma protein concentration drops due to malnutrition.
+
+3. In the proximal tubule, water reabsorption is described as "obligatory." Explain what this means mechanistically — what drives the water, and why is the adjective "obligatory" appropriate?
+
+**Application**
+
+4. A patient with uncontrolled type 1 diabetes has a blood glucose of 500 mg/dL (normal: ~90 mg/dL). Trace the chain of events from this elevated glucose, through filtration and the transport maximum, to polyuria. At each step, name the structure and the mechanism.
+
+5. A drug blocks the Na⁺/K⁺/2Cl⁻ symporter in the ascending limb of the loop of Henle (this is the mechanism of loop diuretics like furosemide). Predict the consequences for: (a) the medullary osmotic gradient, (b) the ability of ADH to concentrate urine in the collecting duct, and (c) urine volume and osmolarity. Explain the mechanism at each step.
+
+6. A patient loses 1.5 liters of blood in a motor vehicle accident. Trace the RAAS activation from the initial pressure drop to blood volume restoration, naming each structure in the cascade and explaining what each component contributes.
+
+**Synthesis**
+
+7. ADH and aldosterone both promote water retention, but through different mechanisms and in response to different stimuli. Construct a scenario in which both are activated simultaneously and both are beneficial — then construct a scenario in which one is activated without the other. For each scenario, trace the mechanism and explain why the response is appropriate or problematic.
+
+8. A patient has podocyte damage from immune-mediated glomerulonephritis. Albumin begins to appear in the urine. Trace the downstream consequences: how does albumin loss from the plasma affect colloid osmotic pressure, net filtration pressure, and ultimately fluid balance in the tissues? What clinical sign would you expect to observe?
+
+9. Dialysis replaces glomerular filtration but cannot replicate the kidney's tubular functions. Using what you know about reabsorption, secretion, and hormonal regulation, identify three specific functions of the nephron tubule that dialysis cannot replace — and predict the clinical consequences of each deficiency for a long-term dialysis patient.
+
+**Challenge**
+
+10. The loop of Henle in desert mammals (like the kangaroo rat) is proportionally much longer than in humans, reaching deeper into the medulla. Using the countercurrent multiplier principle, predict what effect a longer loop would have on the maximum urine osmolarity achievable — and explain why natural selection would favor a longer loop in a desert environment but not in an aquatic one. Then predict what would happen to this system if the vasa recta were replaced by fast-flowing capillaries.
